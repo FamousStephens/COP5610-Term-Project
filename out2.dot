@@ -1,0 +1,8 @@
+digraph dependencies {
+ae7793f15c2ff7e747b4bc7079f5cd4f7;
+ae7793f15c2ff7e747b4bc7079f5cd4f7 [shape=box] [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4"><TR><TD COLSPAN="1"><b>/usr/bin/ls</b></TD></TR><TR><TD align="left">ARG 0: ls</TD></TR></TABLE>>];
+ad41d8cd98f00b204e9800998ecf8427e|832 -> ae7793f15c2ff7e747b4bc7079f5cd4f7;
+ad41d8cd98f00b204e9800998ecf8427e|832 [label=""];
+ae7793f15c2ff7e747b4bc7079f5cd4f7 -> ad41d8cd98f00b204e9800998ecf8427e;
+ad41d8cd98f00b204e9800998ecf8427e [label="STDOUT"];
+}
