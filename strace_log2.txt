@@ -1,0 +1,1551 @@
+43756 1648420813.362326 execve("/usr/bin/make", ["m"...], ["S"..., "C"..., "S"..., "S"..., "S"..., "P"..., "L"..., "X"..., "H"..., "L"..., "L"..., "L"..., "T"..., "L"..., "U"..., "D"..., "S"..., "P"..., "S"..., "M"..., "_"..., "O"...]) = 0
+43756 1648420813.363622 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+43756 1648420813.363887 close(3)        = 0
+43756 1648420813.363990 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+43756 1648420813.364099 read(3, "\177"..., 832) = 832
+43756 1648420813.364611 close(3)        = 0
+43756 1648420813.364714 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+43756 1648420813.364825 read(3, "\177"..., 832) = 832
+43756 1648420813.365619 close(3)        = 0
+43756 1648420813.366919 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+43756 1648420813.367169 close(3)        = 0
+43756 1648420813.369661 openat(AT_FDCWD, ".", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+43756 1648420813.370249 close(3)        = 0
+43756 1648420813.370379 openat(AT_FDCWD, "Makefile", O_RDONLY) = 3
+43756 1648420813.370596 read(3, "f"..., 4096) = 31
+43756 1648420813.370730 read(3, "", 4096) = 0
+43756 1648420813.370811 close(3)        = 0
+43756 1648420813.372492 write(1, "p"..., 16) = 16
+43758 1648420813.372916 execve("/usr/local/sbin/python3", ["p"..., "f"...], ["X"..., "S"..., "_"..., "S"..., "L"..., "P"..., "L"..., "D"..., "P"..., "H"..., "L"..., "S"..., "L"..., "S"..., "C"..., "S"..., "S"..., "U"..., "O"..., "M"..., "M"..., "M"..., "M"..., "M"..., "L"..., "T"..., "M"...]) = -1 ENOENT (No such file or directory)
+43758 1648420813.373330 execve("/usr/local/bin/python3", ["p"..., "f"...], ["X"..., "S"..., "_"..., "S"..., "L"..., "P"..., "L"..., "D"..., "P"..., "H"..., "L"..., "S"..., "L"..., "S"..., "C"..., "S"..., "S"..., "U"..., "O"..., "M"..., "M"..., "M"..., "M"..., "M"..., "L"..., "T"..., "M"...]) = -1 ENOENT (No such file or directory)
+43758 1648420813.373488 execve("/usr/sbin/python3", ["p"..., "f"...], ["X"..., "S"..., "_"..., "S"..., "L"..., "P"..., "L"..., "D"..., "P"..., "H"..., "L"..., "S"..., "L"..., "S"..., "C"..., "S"..., "S"..., "U"..., "O"..., "M"..., "M"..., "M"..., "M"..., "M"..., "L"..., "T"..., "M"...]) = -1 ENOENT (No such file or directory)
+43758 1648420813.373628 execve("/usr/bin/python3", ["p"..., "f"...], ["X"..., "S"..., "_"..., "S"..., "L"..., "P"..., "L"..., "D"..., "P"..., "H"..., "L"..., "S"..., "L"..., "S"..., "C"..., "S"..., "S"..., "U"..., "O"..., "M"..., "M"..., "M"..., "M"..., "M"..., "L"..., "T"..., "M"...]) = 0
+43758 1648420813.374207 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+43758 1648420813.374380 close(3)        = 0
+43758 1648420813.374458 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+43758 1648420813.374536 read(3, "\177"..., 832) = 832
+43758 1648420813.375260 close(3)        = 0
+43758 1648420813.375346 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+43758 1648420813.375426 read(3, "\177"..., 832) = 832
+43758 1648420813.376016 close(3)        = 0
+43758 1648420813.376110 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+43758 1648420813.376212 read(3, "\177"..., 832) = 832
+43758 1648420813.376591 close(3)        = 0
+43758 1648420813.376679 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libutil.so.1", O_RDONLY|O_CLOEXEC) = 3
+43758 1648420813.376776 read(3, "\177"..., 832) = 832
+43758 1648420813.377156 close(3)        = 0
+43758 1648420813.377244 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+43758 1648420813.377341 read(3, "\177"..., 832) = 832
+43758 1648420813.377716 close(3)        = 0
+43758 1648420813.377807 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libexpat.so.1", O_RDONLY|O_CLOEXEC) = 3
+43758 1648420813.377904 read(3, "\177"..., 832) = 832
+43758 1648420813.378330 close(3)        = 0
+43758 1648420813.378555 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+43758 1648420813.378660 read(3, "\177"..., 832) = 832
+43758 1648420813.379136 close(3)        = 0
+43758 1648420813.380921 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+43758 1648420813.381180 close(3)        = 0
+43758 1648420813.381342 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+43758 1648420813.381517 close(3)        = 0
+43758 1648420813.382404 openat(AT_FDCWD, "/usr/bin/pyvenv.cfg", O_RDONLY) = -1 ENOENT (No such file or directory)
+43758 1648420813.382600 openat(AT_FDCWD, "/usr/pyvenv.cfg", O_RDONLY) = -1 ENOENT (No such file or directory)
+43758 1648420813.393513 openat(AT_FDCWD, "/etc/localtime", O_RDONLY|O_CLOEXEC) = 3
+43758 1648420813.393999 read(3, "T"..., 4096) = 3536
+43758 1648420813.394201 read(3, "T"..., 4096) = 2252
+43758 1648420813.394290 close(3)        = 0
+43758 1648420813.395403 openat(AT_FDCWD, "/usr/lib/python3.8", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+43758 1648420813.396215 close(3)        = 0
+43758 1648420813.398416 openat(AT_FDCWD, "/usr/lib/python3.8/encodings/__pycache__/__init__.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 3
+43758 1648420813.398836 read(3, "U"..., 3904) = 3903
+43758 1648420813.398916 read(3, "", 1)  = 0
+43758 1648420813.399007 close(3)        = 0
+43758 1648420813.399947 openat(AT_FDCWD, "/usr/lib/python3.8/__pycache__/codecs.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 3
+43758 1648420813.400279 read(3, "U"..., 33957) = 33956
+43758 1648420813.400382 read(3, "", 1)  = 0
+43758 1648420813.400450 close(3)        = 0
+43758 1648420813.401811 openat(AT_FDCWD, "/usr/lib/python3.8/encodings", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+43758 1648420813.402261 close(3)        = 0
+43758 1648420813.402649 openat(AT_FDCWD, "/usr/lib/python3.8/encodings/__pycache__/aliases.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 3
+43758 1648420813.402951 read(3, "U"..., 6331) = 6330
+43758 1648420813.403021 read(3, "", 1)  = 0
+43758 1648420813.403088 close(3)        = 0
+43758 1648420813.404150 openat(AT_FDCWD, "/usr/lib/python3.8/encodings/__pycache__/utf_8.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 3
+43758 1648420813.404460 read(3, "U"..., 1631) = 1630
+43758 1648420813.404532 read(3, "", 1)  = 0
+43758 1648420813.404598 close(3)        = 0
+43758 1648420813.409128 openat(AT_FDCWD, "/usr/lib/python3.8/encodings/__pycache__/latin_1.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 3
+43758 1648420813.409571 read(3, "U"..., 1894) = 1893
+43758 1648420813.409676 read(3, "", 1)  = 0
+43758 1648420813.409788 close(3)        = 0
+43758 1648420813.410659 openat(AT_FDCWD, "/usr/lib/python3.8/__pycache__/io.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 3
+43758 1648420813.410979 read(3, "U"..., 3455) = 3454
+43758 1648420813.411049 read(3, "", 1)  = 0
+43758 1648420813.411115 close(3)        = 0
+43758 1648420813.411631 openat(AT_FDCWD, "/usr/lib/python3.8/__pycache__/abc.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 3
+43758 1648420813.411931 read(3, "U"..., 5335) = 5334
+43758 1648420813.412000 read(3, "", 1)  = 0
+43758 1648420813.412066 close(3)        = 0
+43758 1648420813.413073 close(3)        = 0
+43758 1648420813.413410 close(3)        = 0
+43758 1648420813.413705 close(3)        = 0
+43758 1648420813.414305 openat(AT_FDCWD, "/usr/lib/python3.8/__pycache__/site.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 3
+43758 1648420813.414548 read(3, "U"..., 17169) = 17168
+43758 1648420813.414610 read(3, "", 1)  = 0
+43758 1648420813.414659 close(3)        = 0
+43758 1648420813.415138 openat(AT_FDCWD, "/usr/lib/python3.8/__pycache__/os.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 3
+43758 1648420813.415359 read(3, "U"..., 31398) = 31397
+43758 1648420813.415420 read(3, "", 1)  = 0
+43758 1648420813.415489 close(3)        = 0
+43758 1648420813.416139 openat(AT_FDCWD, "/usr/lib/python3.8/__pycache__/stat.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 3
+43758 1648420813.416352 read(3, "U"..., 4373) = 4372
+43758 1648420813.416402 read(3, "", 1)  = 0
+43758 1648420813.416450 close(3)        = 0
+43758 1648420813.417197 openat(AT_FDCWD, "/usr/lib/python3.8/__pycache__/_collections_abc.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 3
+43758 1648420813.417407 read(3, "U"..., 28742) = 28741
+43758 1648420813.417461 read(3, "", 1)  = 0
+43758 1648420813.417522 close(3)        = 0
+43758 1648420813.419642 openat(AT_FDCWD, "/usr/lib/python3.8/__pycache__/posixpath.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 3
+43758 1648420813.419817 read(3, "U"..., 10429) = 10428
+43758 1648420813.419857 read(3, "", 1)  = 0
+43758 1648420813.419917 close(3)        = 0
+43758 1648420813.420320 openat(AT_FDCWD, "/usr/lib/python3.8/__pycache__/genericpath.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 3
+43758 1648420813.420498 read(3, "U"..., 4002) = 4001
+43758 1648420813.420539 read(3, "", 1)  = 0
+43758 1648420813.420575 close(3)        = 0
+43758 1648420813.421365 openat(AT_FDCWD, "/usr/lib/python3.8/__pycache__/_sitebuiltins.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 3
+43758 1648420813.421534 read(3, "U"..., 3482) = 3481
+43758 1648420813.421572 read(3, "", 1)  = 0
+43758 1648420813.421609 close(3)        = 0
+43758 1648420813.422138 openat(AT_FDCWD, "/usr/local/lib/python3.8/dist-packages", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+43758 1648420813.422266 close(3)        = 0
+43758 1648420813.422353 openat(AT_FDCWD, "/usr/lib/python3/dist-packages", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+43758 1648420813.422649 close(3)        = 0
+43758 1648420813.422740 openat(AT_FDCWD, "/usr/lib/python3/dist-packages/zope.interface-4.7.1-nspkg.pth", O_RDONLY|O_CLOEXEC) = 3
+43758 1648420813.423083 openat(AT_FDCWD, "/usr/lib/python3.8/__pycache__/_bootlocale.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 4
+43758 1648420813.423247 read(4, "U"..., 1244) = 1243
+43758 1648420813.423286 read(4, "", 1)  = 0
+43758 1648420813.423323 close(4)        = 0
+43758 1648420813.423559 read(3, "i"..., 8192) = 529
+43758 1648420813.424350 openat(AT_FDCWD, "/usr/lib/python3.8/__pycache__/types.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 4
+43758 1648420813.424497 read(4, "U"..., 9178) = 9177
+43758 1648420813.424531 read(4, "", 1)  = 0
+43758 1648420813.424563 close(4)        = 0
+43758 1648420813.425027 openat(AT_FDCWD, "/usr/lib/python3.8/importlib/__pycache__/__init__.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 4
+43758 1648420813.425169 read(4, "U"..., 3759) = 3758
+43758 1648420813.425202 read(4, "", 1)  = 0
+43758 1648420813.425233 close(4)        = 0
+43758 1648420813.425465 openat(AT_FDCWD, "/usr/lib/python3.8/__pycache__/warnings.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 4
+43758 1648420813.425612 read(4, "U"..., 13653) = 13652
+43758 1648420813.425648 read(4, "", 1)  = 0
+43758 1648420813.425680 close(4)        = 0
+43758 1648420813.426021 openat(AT_FDCWD, "/usr/lib/python3.8/importlib", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 4
+43758 1648420813.426176 close(4)        = 0
+43758 1648420813.426323 openat(AT_FDCWD, "/usr/lib/python3.8/importlib/__pycache__/util.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 4
+43758 1648420813.426463 read(4, "U"..., 9293) = 9292
+43758 1648420813.426497 read(4, "", 1)  = 0
+43758 1648420813.426528 close(4)        = 0
+43758 1648420813.426930 openat(AT_FDCWD, "/usr/lib/python3.8/importlib/__pycache__/abc.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 4
+43758 1648420813.427068 read(4, "U"..., 13574) = 13573
+43758 1648420813.427102 read(4, "", 1)  = 0
+43758 1648420813.427132 close(4)        = 0
+43758 1648420813.427410 openat(AT_FDCWD, "/usr/lib/python3.8/importlib/__pycache__/machinery.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 4
+43758 1648420813.427600 read(4, "U"..., 963) = 962
+43758 1648420813.427640 read(4, "", 1)  = 0
+43758 1648420813.427678 close(4)        = 0
+43758 1648420813.428362 openat(AT_FDCWD, "/usr/lib/python3.8/__pycache__/contextlib.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 4
+43758 1648420813.428527 read(4, "U"..., 20230) = 20229
+43758 1648420813.428581 read(4, "", 1)  = 0
+43758 1648420813.428619 close(4)        = 0
+43758 1648420813.429098 openat(AT_FDCWD, "/usr/lib/python3.8/collections/__pycache__/__init__.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 4
+43758 1648420813.429263 read(4, "U"..., 46437) = 46436
+43758 1648420813.429320 read(4, "", 1)  = 0
+43758 1648420813.429369 close(4)        = 0
+43758 1648420813.429873 openat(AT_FDCWD, "/usr/lib/python3.8/__pycache__/operator.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 4
+43758 1648420813.430023 read(4, "U"..., 13692) = 13691
+43758 1648420813.430058 read(4, "", 1)  = 0
+43758 1648420813.430090 close(4)        = 0
+43758 1648420813.430552 openat(AT_FDCWD, "/usr/lib/python3.8/__pycache__/keyword.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 4
+43758 1648420813.430689 read(4, "U"..., 999) = 998
+43758 1648420813.430727 read(4, "", 1)  = 0
+43758 1648420813.430759 close(4)        = 0
+43758 1648420813.430977 openat(AT_FDCWD, "/usr/lib/python3.8/__pycache__/heapq.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 4
+43758 1648420813.431109 read(4, "U"..., 14071) = 14070
+43758 1648420813.431144 read(4, "", 1)  = 0
+43758 1648420813.431175 close(4)        = 0
+43758 1648420813.431587 openat(AT_FDCWD, "/usr/lib/python3.8/__pycache__/reprlib.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 4
+43758 1648420813.431725 read(4, "U"..., 5304) = 5303
+43758 1648420813.431760 read(4, "", 1)  = 0
+43758 1648420813.431792 close(4)        = 0
+43758 1648420813.433165 openat(AT_FDCWD, "/usr/lib/python3.8/__pycache__/functools.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 4
+43758 1648420813.433313 read(4, "U"..., 27902) = 27901
+43758 1648420813.433361 read(4, "", 1)  = 0
+43758 1648420813.433395 close(4)        = 0
+43758 1648420813.434461 openat(AT_FDCWD, "/usr/lib/python3/dist-packages", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 4
+43758 1648420813.434728 close(4)        = 0
+43758 1648420813.434971 read(3, "", 8192) = 0
+43758 1648420813.435019 close(3)        = 0
+43758 1648420813.435275 openat(AT_FDCWD, "/usr/lib/python3.8/__pycache__/sitecustomize.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 3
+43758 1648420813.435411 read(3, "U"..., 221) = 220
+43758 1648420813.435456 read(3, "", 1)  = 0
+43758 1648420813.435488 close(3)        = 0
+43758 1648420813.435684 openat(AT_FDCWD, "/usr/lib/python3.8/lib-dynload", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+43758 1648420813.435818 close(3)        = 0
+43758 1648420813.435958 openat(AT_FDCWD, "/usr/local/lib/python3.8/dist-packages", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+43758 1648420813.436059 close(3)        = 0
+43758 1648420813.436238 openat(AT_FDCWD, "/usr/lib/python3/dist-packages/__pycache__/apport_python_hook.cpython-38.pyc", O_RDONLY|O_CLOEXEC) = 3
+43758 1648420813.436371 read(3, "U"..., 4340) = 4339
+43758 1648420813.436407 read(3, "", 1)  = 0
+43758 1648420813.436440 close(3)        = 0
+43758 1648420813.436763 openat(AT_FDCWD, "file.py", O_RDONLY|O_CLOEXEC) = 3
+43758 1648420813.436902 read(3, "s"..., 4096) = 22
+43758 1648420813.437028 read(3, "i"..., 109) = 108
+43758 1648420813.437061 read(3, "", 1)  = 0
+43758 1648420813.437099 close(3)        = 0
+43758 1648420813.437238 openat(AT_FDCWD, "file.py", O_RDONLY) = 3
+43758 1648420813.437388 read(3, "i"..., 4096) = 108
+43758 1648420813.437452 read(3, "i"..., 4096) = 108
+43758 1648420813.437514 read(3, "", 4096) = 0
+43758 1648420813.437559 close(3)        = 0
+43758 1648420813.437713 clone(child_stack=0x7fa9c6fb2ff0, flags=CLONE_VM|CLONE_VFORK|SIGCHLD <unfinished ...>
+43759 1648420813.439652 execve("/bin/sh", ["s"..., "-"..., "l"...], ["X"..., "S"..., "_"..., "S"..., "L"..., "P"..., "L"..., "D"..., "P"..., "H"..., "L"..., "S"..., "L"..., "S"..., "C"..., "S"..., "S"..., "U"..., "O"..., "M"..., "M"..., "M"..., "M"..., "M"..., "L"..., "T"..., "M"...] <unfinished ...>
+43758 1648420813.439728 <... clone resumed>) = 43759
+43759 1648420813.439786 <... execve resumed>) = 0
+43759 1648420813.439883 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+43759 1648420813.439942 close(3)        = 0
+43759 1648420813.439968 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+43759 1648420813.439997 read(3, "\177"..., 832) = 832
+43759 1648420813.440256 close(3)        = 0
+43759 1648420813.440855 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f2b3fde7850) = 43760
+43760 1648420813.440946 close(3 <unfinished ...>
+43759 1648420813.440954 close(4 <unfinished ...>
+43760 1648420813.440961 <... close resumed>) = 0
+43759 1648420813.440969 <... close resumed>) = 0
+43760 1648420813.440992 close(4)        = 0
+43760 1648420813.441040 execve("/usr/bin/ls", ["l"..., "-"...], ["L"..., "S"..., "M"..., "U"..., "S"..., "H"..., "O"..., "M"..., "C"..., "M"..., "S"..., "L"..., "_"..., "T"..., "P"..., "M"..., "D"..., "L"..., "X"..., "L"..., "S"..., "S"..., "M"..., "L"..., "S"..., "P"..., "M"...] <unfinished ...>
+43759 1648420813.441101 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f2b3fde7850) = 43761
+43760 1648420813.441185 <... execve resumed>) = 0
+43759 1648420813.441193 close(3)        = 0
+43759 1648420813.441223 close(-1 <unfinished ...>
+43761 1648420813.441232 close(3 <unfinished ...>
+43759 1648420813.441239 <... close resumed>) = -1 EBADF (Bad file descriptor)
+43761 1648420813.441252 <... close resumed>) = 0
+43761 1648420813.441282 execve("/usr/bin/more", ["m"...], ["L"..., "S"..., "M"..., "U"..., "S"..., "H"..., "O"..., "M"..., "C"..., "M"..., "S"..., "L"..., "_"..., "T"..., "P"..., "M"..., "D"..., "L"..., "X"..., "L"..., "S"..., "S"..., "M"..., "L"..., "S"..., "P"..., "M"...] <unfinished ...>
+43760 1648420813.441327 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+43760 1648420813.441394 close(3)        = 0
+43761 1648420813.441413 <... execve resumed>) = 0
+43760 1648420813.441426 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3
+43760 1648420813.441458 read(3, "\177"..., 832) = 832
+43761 1648420813.441521 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+43761 1648420813.441584 close(3)        = 0
+43761 1648420813.441614 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = 3
+43761 1648420813.441643 read(3, "\177"..., 832) = 832
+43760 1648420813.441694 close(3)        = 0
+43760 1648420813.441725 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+43760 1648420813.441763 read(3, "\177"..., 832) = 832
+43761 1648420813.441807 close(3)        = 0
+43761 1648420813.441834 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+43761 1648420813.441861 read(3, "\177"..., 832) = 832
+43760 1648420813.442048 close(3)        = 0
+43760 1648420813.442082 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpcre2-8.so.0", O_RDONLY|O_CLOEXEC <unfinished ...>
+43761 1648420813.442094 close(3 <unfinished ...>
+43760 1648420813.442102 <... openat resumed>) = 3
+43761 1648420813.442110 <... close resumed>) = 0
+43760 1648420813.442117 read(3, "\177"..., 832) = 832
+43760 1648420813.442263 close(3)        = 0
+43760 1648420813.442292 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+43760 1648420813.442327 read(3, "\177"..., 832) = 832
+43760 1648420813.442462 close(3 <unfinished ...>
+43761 1648420813.442471 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC <unfinished ...>
+43760 1648420813.442481 <... close resumed>) = 0
+43761 1648420813.442489 <... openat resumed>) = 3
+43760 1648420813.442498 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+43760 1648420813.442530 read(3, "\177"..., 832) = 832
+43761 1648420813.442550 close(3)        = 0
+43760 1648420813.442722 close(3)        = 0
+43761 1648420813.442778 openat(AT_FDCWD, "/lib/terminfo/x/xterm-256color", O_RDONLY) = 3
+43761 1648420813.442826 read(3, "\36"..., 32768) = 3503
+43761 1648420813.442857 read(3, "", 28672) = 0
+43761 1648420813.442910 close(3)        = 0
+43761 1648420813.443215 read(0,  <unfinished ...>
+43760 1648420813.443354 openat(AT_FDCWD, "/proc/filesystems", O_RDONLY|O_CLOEXEC) = 3
+43760 1648420813.443409 read(3, "n"..., 1024) = 422
+43760 1648420813.443469 read(3, "", 1024) = 0
+43760 1648420813.443495 close(3)        = 0
+43760 1648420813.443558 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+43760 1648420813.443627 close(3)        = 0
+43760 1648420813.443711 openat(AT_FDCWD, "/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+43760 1648420813.443763 read(3, "#"..., 4096) = 2996
+43760 1648420813.443803 read(3, "", 4096) = 0
+43760 1648420813.443828 close(3)        = 0
+43760 1648420813.443864 openat(AT_FDCWD, "/usr/share/locale/en_US.UTF-8/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43760 1648420813.443904 openat(AT_FDCWD, "/usr/share/locale/en_US.utf8/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43760 1648420813.443934 openat(AT_FDCWD, "/usr/share/locale/en_US/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43760 1648420813.443964 openat(AT_FDCWD, "/usr/share/locale/en.UTF-8/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43760 1648420813.443995 openat(AT_FDCWD, "/usr/share/locale/en.utf8/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43760 1648420813.444024 openat(AT_FDCWD, "/usr/share/locale/en/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43760 1648420813.444058 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+43760 1648420813.444121 close(3)        = 0
+43760 1648420813.444182 openat(AT_FDCWD, ".", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+43760 1648420813.444381 close(4)        = 0
+43760 1648420813.444446 close(4)        = 0
+43760 1648420813.444476 openat(AT_FDCWD, "/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 4
+43760 1648420813.444524 read(4, "#"..., 4096) = 542
+43760 1648420813.444556 read(4, "", 4096) = 0
+43760 1648420813.444580 close(4)        = 0
+43760 1648420813.444607 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 4
+43760 1648420813.444667 close(4)        = 0
+43760 1648420813.444694 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 4
+43760 1648420813.444725 read(4, "\177"..., 832) = 832
+43760 1648420813.444869 close(4)        = 0
+43760 1648420813.444958 openat(AT_FDCWD, "/etc/passwd", O_RDONLY|O_CLOEXEC) = 4
+43760 1648420813.445019 read(4, "r"..., 4096) = 2732
+43760 1648420813.445048 close(4)        = 0
+43760 1648420813.445148 close(4)        = 0
+43760 1648420813.445385 close(4)        = 0
+43760 1648420813.445409 openat(AT_FDCWD, "/etc/group", O_RDONLY|O_CLOEXEC) = 4
+43760 1648420813.445468 read(4, "r"..., 4096) = 1030
+43760 1648420813.445492 close(4)        = 0
+43760 1648420813.445559 openat(AT_FDCWD, "/etc/passwd", O_RDONLY|O_CLOEXEC) = 4
+43760 1648420813.445610 read(4, "r"..., 4096) = 2732
+43760 1648420813.445639 close(4)        = 0
+43760 1648420813.445661 openat(AT_FDCWD, "/etc/group", O_RDONLY|O_CLOEXEC) = 4
+43760 1648420813.445717 read(4, "r"..., 4096) = 1030
+43760 1648420813.445744 close(4)        = 0
+43760 1648420813.447473 close(3)        = 0
+43760 1648420813.447547 openat(AT_FDCWD, "/usr/share/locale/en_US.UTF-8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43760 1648420813.447577 openat(AT_FDCWD, "/usr/share/locale/en_US.utf8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43760 1648420813.447605 openat(AT_FDCWD, "/usr/share/locale/en_US/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43760 1648420813.447630 openat(AT_FDCWD, "/usr/share/locale/en.UTF-8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43760 1648420813.447654 openat(AT_FDCWD, "/usr/share/locale/en.utf8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43760 1648420813.447679 openat(AT_FDCWD, "/usr/share/locale/en/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43760 1648420813.447702 openat(AT_FDCWD, "/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43760 1648420813.447726 openat(AT_FDCWD, "/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43760 1648420813.447749 openat(AT_FDCWD, "/usr/share/locale-langpack/en_US/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43760 1648420813.447773 openat(AT_FDCWD, "/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43760 1648420813.447795 openat(AT_FDCWD, "/usr/share/locale-langpack/en.utf8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43760 1648420813.447823 openat(AT_FDCWD, "/usr/share/locale-langpack/en/LC_MESSAGES/coreutils.mo", O_RDONLY) = 3
+43760 1648420813.447875 close(3)        = 0
+43760 1648420813.447933 openat(AT_FDCWD, "/etc/localtime", O_RDONLY|O_CLOEXEC) = 3
+43760 1648420813.447990 read(3, "T"..., 4096) = 3536
+43760 1648420813.448027 read(3, "T"..., 4096) = 2252
+43760 1648420813.448052 close(3)        = 0
+43760 1648420813.448116 write(1, "t"..., 2198 <unfinished ...>
+43761 1648420813.448136 <... read resumed>"t"..., 4096) = 2198
+43760 1648420813.448149 <... write resumed>) = 2198
+43761 1648420813.448159 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY <unfinished ...>
+43760 1648420813.448169 close(1 <unfinished ...>
+43761 1648420813.448178 <... openat resumed>) = 3
+43760 1648420813.448185 <... close resumed>) = 0
+43760 1648420813.448195 close(2)        = 0
+43761 1648420813.448232 close(3)        = 0
+43761 1648420813.448280 write(1, "t"..., 10) = 10
+43761 1648420813.448389 write(1, "-"..., 55 <unfinished ...>
+43760 1648420813.448399 +++ exited with 0 +++
+43761 1648420813.448410 <... write resumed>) = 55
+43761 1648420813.448427 write(1, "-"..., 57) = 57
+43759 1648420813.448448 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=43760, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+43761 1648420813.448465 write(1, "-"..., 64) = 64
+43761 1648420813.448506 write(1, "-"..., 52) = 52
+43761 1648420813.448548 write(1, "-"..., 62) = 62
+43761 1648420813.448584 write(1, "-"..., 65) = 65
+43761 1648420813.448618 write(1, "-"..., 55) = 55
+43761 1648420813.448652 write(1, "-"..., 49) = 49
+43761 1648420813.448685 write(1, "-"..., 57) = 57
+43761 1648420813.448715 write(1, "-"..., 68) = 68
+43761 1648420813.448743 write(1, "-"..., 61) = 61
+43761 1648420813.448770 write(1, "-"..., 51) = 51
+43761 1648420813.448798 write(1, "-"..., 60) = 60
+43761 1648420813.448826 write(1, "-"..., 49) = 49
+43761 1648420813.448852 write(1, "-"..., 54) = 54
+43761 1648420813.448881 write(1, "-"..., 62) = 62
+43761 1648420813.448909 write(1, "-"..., 52) = 52
+43761 1648420813.448936 write(1, "-"..., 60) = 60
+43761 1648420813.448963 write(1, "-"..., 53) = 53
+43761 1648420813.448990 write(1, "-"..., 56) = 56
+43761 1648420813.449018 write(1, "-"..., 57) = 57
+43761 1648420813.449046 write(1, "-"..., 61) = 61
+43761 1648420813.449073 write(1, "-"..., 59) = 59
+43761 1648420813.449101 write(1, "-"..., 57) = 57
+43761 1648420813.449129 write(1, "-"..., 52) = 52
+43761 1648420813.449156 write(1, "-"..., 50) = 50
+43761 1648420813.449184 write(1, "-"..., 56) = 56
+43761 1648420813.449212 write(1, "-"..., 54) = 54
+43761 1648420813.449239 write(1, "-"..., 56) = 56
+43761 1648420813.449268 write(1, "-"..., 59) = 59
+43761 1648420813.449295 write(1, "d"..., 45) = 45
+43761 1648420813.449323 write(1, "-"..., 59) = 59
+43761 1648420813.449350 write(1, "-"..., 53) = 53
+43761 1648420813.449378 write(1, "-"..., 57) = 57
+43761 1648420813.449406 write(1, "-"..., 58) = 58
+43761 1648420813.449433 write(1, "d"..., 48) = 48
+43761 1648420813.449460 write(1, "-"..., 53) = 53
+43761 1648420813.449487 write(1, "-"..., 59) = 59
+43761 1648420813.449515 write(1, "-"..., 53) = 53
+43761 1648420813.449539 read(0, "", 4096) = 0
+43761 1648420813.449602 close(1)        = 0
+43761 1648420813.449622 close(2)        = 0
+43761 1648420813.449716 +++ exited with 0 +++
+43759 1648420813.449729 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=43761, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+43759 1648420813.449816 +++ exited with 0 +++
+43758 1648420813.449873 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=43759, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+43758 1648420813.449963 clone(child_stack=0x7fa9c6fb2ff0, flags=CLONE_VM|CLONE_VFORK|SIGCHLD <unfinished ...>
+43762 1648420813.451526 execve("/bin/sh", ["s"..., "-"..., "l"...], ["X"..., "S"..., "_"..., "S"..., "L"..., "P"..., "L"..., "D"..., "P"..., "H"..., "L"..., "S"..., "L"..., "S"..., "C"..., "S"..., "S"..., "U"..., "O"..., "M"..., "M"..., "M"..., "M"..., "M"..., "L"..., "T"..., "M"...] <unfinished ...>
+43758 1648420813.451603 <... clone resumed>) = 43762
+43762 1648420813.451660 <... execve resumed>) = 0
+43762 1648420813.451754 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+43762 1648420813.451820 close(3)        = 0
+43762 1648420813.451848 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+43762 1648420813.451877 read(3, "\177"..., 832) = 832
+43762 1648420813.452114 close(3)        = 0
+43762 1648420813.452768 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f20ec16e850) = 43763
+43762 1648420813.452851 close(4 <unfinished ...>
+43763 1648420813.452860 close(3 <unfinished ...>
+43762 1648420813.452867 <... close resumed>) = 0
+43763 1648420813.452874 <... close resumed>) = 0
+43763 1648420813.452901 close(4)        = 0
+43762 1648420813.452965 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f20ec16e850) = 43764
+43762 1648420813.453057 close(3)        = 0
+43764 1648420813.453081 close(3)        = 0
+43762 1648420813.453095 close(-1)       = -1 EBADF (Bad file descriptor)
+43764 1648420813.453118 execve("/usr/bin/less", ["l"...], ["L"..., "S"..., "M"..., "U"..., "S"..., "H"..., "O"..., "M"..., "C"..., "M"..., "S"..., "L"..., "_"..., "T"..., "P"..., "M"..., "D"..., "L"..., "X"..., "L"..., "S"..., "S"..., "M"..., "L"..., "S"..., "P"..., "M"...] <unfinished ...>
+43763 1648420813.453140 write(2, "s"..., 7) = 7
+43763 1648420813.453176 write(2, "l"..., 13) = 13
+43763 1648420813.453206 write(2, "\n", 1) = 1
+43764 1648420813.453248 <... execve resumed>) = 0
+43763 1648420813.453302 +++ exited with 127 +++
+43762 1648420813.453318 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=43763, si_uid=0, si_status=127, si_utime=0, si_stime=0} ---
+43764 1648420813.453353 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+43764 1648420813.453409 close(3)        = 0
+43764 1648420813.453433 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = 3
+43764 1648420813.453457 read(3, "\177"..., 832) = 832
+43764 1648420813.453578 close(3)        = 0
+43764 1648420813.453603 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+43764 1648420813.453628 read(3, "\177"..., 832) = 832
+43764 1648420813.453829 close(3)        = 0
+43764 1648420813.454163 openat(AT_FDCWD, "/usr/bin/.sysless", O_RDONLY) = -1 ENOENT (No such file or directory)
+43764 1648420813.454192 openat(AT_FDCWD, "/etc/sysless", O_RDONLY) = -1 ENOENT (No such file or directory)
+43764 1648420813.454222 openat(AT_FDCWD, "/root/.less", O_RDONLY) = -1 ENOENT (No such file or directory)
+43764 1648420813.454387 openat(AT_FDCWD, "/lib/terminfo/x/xterm-256color", O_RDONLY) = 3
+43764 1648420813.454428 read(3, "\36"..., 32768) = 3503
+43764 1648420813.454451 read(3, "", 28672) = 0
+43764 1648420813.454493 close(3)        = 0
+43764 1648420813.454636 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+43764 1648420813.454695 close(3)        = 0
+43764 1648420813.454741 openat(AT_FDCWD, "/root/.lesshst", O_RDONLY) = -1 ENOENT (No such file or directory)
+43764 1648420813.454770 openat(AT_FDCWD, "/dev/tty", O_RDONLY) = 3
+43764 1648420813.455020 write(1, "\33"..., 25) = 25
+43764 1648420813.455046 read(0, "", 8192) = 0
+43764 1648420813.455072 write(1, "\r"..., 21) = 21
+43764 1648420813.455096 read(3, "q", 1) = 1
+43764 1648420816.867472 write(1, "\r"..., 28) = 28
+43764 1648420816.868752 +++ exited with 0 +++
+43762 1648420816.868849 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=43764, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+43762 1648420816.869177 +++ exited with 0 +++
+43758 1648420816.869398 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=43762, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+43758 1648420816.869739 clone(child_stack=0x7fa9c6fb2ff0, flags=CLONE_VM|CLONE_VFORK|SIGCHLD <unfinished ...>
+43786 1648420816.876499 execve("/bin/sh", ["s"..., "-"..., "m"...], ["X"..., "S"..., "_"..., "S"..., "L"..., "P"..., "L"..., "D"..., "P"..., "H"..., "L"..., "S"..., "L"..., "S"..., "C"..., "S"..., "S"..., "U"..., "O"..., "M"..., "M"..., "M"..., "M"..., "M"..., "L"..., "T"..., "M"...] <unfinished ...>
+43758 1648420816.876788 <... clone resumed>) = 43786
+43786 1648420816.876943 <... execve resumed>) = 0
+43786 1648420816.877256 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+43786 1648420816.877462 close(3)        = 0
+43786 1648420816.877548 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+43786 1648420816.877637 read(3, "\177"..., 832) = 832
+43786 1648420816.878484 close(3)        = 0
+43786 1648420816.880711 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f39cbfb7850) = 43787
+43787 1648420816.881045 execve("/usr/bin/man", ["m"..., "l"...], ["L"..., "S"..., "M"..., "U"..., "S"..., "H"..., "O"..., "M"..., "C"..., "M"..., "S"..., "L"..., "_"..., "T"..., "P"..., "M"..., "D"..., "L"..., "X"..., "L"..., "S"..., "S"..., "M"..., "L"..., "S"..., "P"..., "M"...]) = 0
+43787 1648420816.881825 openat(AT_FDCWD, "/usr/lib/man-db/tls/haswell/x86_64/libmandb-2.9.1.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+43787 1648420816.882027 openat(AT_FDCWD, "/usr/lib/man-db/tls/haswell/libmandb-2.9.1.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+43787 1648420816.882232 openat(AT_FDCWD, "/usr/lib/man-db/tls/x86_64/libmandb-2.9.1.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+43787 1648420816.882425 openat(AT_FDCWD, "/usr/lib/man-db/tls/libmandb-2.9.1.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+43787 1648420816.882776 openat(AT_FDCWD, "/usr/lib/man-db/haswell/x86_64/libmandb-2.9.1.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+43787 1648420816.882941 openat(AT_FDCWD, "/usr/lib/man-db/haswell/libmandb-2.9.1.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+43787 1648420816.883100 openat(AT_FDCWD, "/usr/lib/man-db/x86_64/libmandb-2.9.1.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+43787 1648420816.883272 openat(AT_FDCWD, "/usr/lib/man-db/libmandb-2.9.1.so", O_RDONLY|O_CLOEXEC) = 3
+43787 1648420816.883394 read(3, "\177"..., 832) = 832
+43787 1648420816.884678 close(3)        = 0
+43787 1648420816.884785 openat(AT_FDCWD, "/usr/lib/man-db/libman-2.9.1.so", O_RDONLY|O_CLOEXEC) = 3
+43787 1648420816.884889 read(3, "\177"..., 832) = 832
+43787 1648420816.885312 close(3)        = 0
+43787 1648420816.885397 openat(AT_FDCWD, "/usr/lib/man-db/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+43787 1648420816.885493 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+43787 1648420816.885688 close(3)        = 0
+43787 1648420816.885773 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+43787 1648420816.885862 read(3, "\177"..., 832) = 832
+43787 1648420816.886299 close(3)        = 0
+43787 1648420816.886379 openat(AT_FDCWD, "/usr/lib/man-db/libpipeline.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+43787 1648420816.886477 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpipeline.so.1", O_RDONLY|O_CLOEXEC) = 3
+43787 1648420816.886565 read(3, "\177"..., 832) = 832
+43787 1648420816.886951 close(3)        = 0
+43787 1648420816.887031 openat(AT_FDCWD, "/usr/lib/man-db/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+43787 1648420816.887123 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+43787 1648420816.887211 read(3, "\177"..., 832) = 832
+43787 1648420816.888003 close(3)        = 0
+43787 1648420816.888102 openat(AT_FDCWD, "/usr/lib/man-db/libgdbm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+43787 1648420816.888199 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libgdbm.so.6", O_RDONLY|O_CLOEXEC) = 3
+43787 1648420816.888287 read(3, "\177"..., 832) = 832
+43787 1648420816.888653 close(3)        = 0
+43787 1648420816.888738 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libseccomp.so.2", O_RDONLY|O_CLOEXEC) = 3
+43787 1648420816.888825 read(3, "\177"..., 832) = 832
+43787 1648420816.889339 close(3)        = 0
+43787 1648420816.894811 openat(AT_FDCWD, "/etc/ld.so.preload", O_RDONLY) = -1 ENOENT (No such file or directory)
+43787 1648420816.899451 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+43787 1648420816.899763 close(3)        = 0
+43787 1648420816.900653 openat(AT_FDCWD, "/root/.manpath", O_RDONLY) = -1 ENOENT (No such file or directory)
+43787 1648420816.900773 openat(AT_FDCWD, "/etc/manpath.config", O_RDONLY) = 3
+43787 1648420816.900933 read(3, "#"..., 4096) = 4096
+43787 1648420816.901197 read(3, "a"..., 4096) = 1119
+43787 1648420816.901304 read(3, "", 4096) = 0
+43787 1648420816.901378 close(3)        = 0
+43787 1648420816.901859 openat(AT_FDCWD, "/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+43787 1648420816.902028 read(3, "#"..., 4096) = 2996
+43787 1648420816.902142 read(3, "", 4096) = 0
+43787 1648420816.902218 close(3)        = 0
+43787 1648420816.902392 openat(AT_FDCWD, "/usr/share/locale/en_US.UTF-8/LC_MESSAGES/man-db.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43787 1648420816.902488 openat(AT_FDCWD, "/usr/share/locale/en_US.utf8/LC_MESSAGES/man-db.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43787 1648420816.902579 openat(AT_FDCWD, "/usr/share/locale/en_US/LC_MESSAGES/man-db.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43787 1648420816.902668 openat(AT_FDCWD, "/usr/share/locale/en.UTF-8/LC_MESSAGES/man-db.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43787 1648420816.902754 openat(AT_FDCWD, "/usr/share/locale/en.utf8/LC_MESSAGES/man-db.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43787 1648420816.902842 openat(AT_FDCWD, "/usr/share/locale/en/LC_MESSAGES/man-db.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43787 1648420816.902931 openat(AT_FDCWD, "/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/man-db.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43787 1648420816.903016 openat(AT_FDCWD, "/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/man-db.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43787 1648420816.903104 openat(AT_FDCWD, "/usr/share/locale-langpack/en_US/LC_MESSAGES/man-db.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43787 1648420816.903192 openat(AT_FDCWD, "/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/man-db.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43787 1648420816.903278 openat(AT_FDCWD, "/usr/share/locale-langpack/en.utf8/LC_MESSAGES/man-db.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43787 1648420816.903368 openat(AT_FDCWD, "/usr/share/locale-langpack/en/LC_MESSAGES/man-db.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43787 1648420816.904396 openat(AT_FDCWD, "/usr/local/man", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+43787 1648420816.904805 close(3)        = 0
+43787 1648420816.904906 openat(AT_FDCWD, "/usr/local/share/man", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+43787 1648420816.905168 close(3)        = 0
+43787 1648420816.905250 openat(AT_FDCWD, "/usr/share/man", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+43787 1648420816.906836 close(3)        = 0
+43787 1648420816.909254 openat(AT_FDCWD, "/usr/local/man", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+43787 1648420816.909552 close(3)        = 0
+43787 1648420816.909640 openat(AT_FDCWD, "/usr/local/man", O_RDONLY|O_PATH|O_DIRECTORY) = 3
+43787 1648420816.909784 close(3)        = 0
+43787 1648420816.909878 openat(AT_FDCWD, "/var/cache/man/oldlocal/index.db", O_RDONLY) = -1 ENOENT (No such file or directory)
+43787 1648420816.909984 openat(AT_FDCWD, "/usr/share/man", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+43787 1648420816.910308 close(3)        = 0
+43787 1648420816.910407 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+43787 1648420816.910620 close(3)        = 0
+43787 1648420816.910723 openat(AT_FDCWD, "/usr/share/man/man1", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+43787 1648420816.914400 close(3)        = 0
+43787 1648420816.914570 openat(AT_FDCWD, "/usr/share/man", O_RDONLY|O_PATH|O_DIRECTORY) = 3
+43787 1648420816.914774 openat(3, "/usr/share/man/man1/ls.1.gz", O_RDONLY) = 4
+43787 1648420816.914967 close(4)        = 0
+43787 1648420816.915045 close(3)        = 0
+43787 1648420816.915492 openat(AT_FDCWD, "/usr/share/man/man1/ls.1.gz", O_RDONLY) = 3
+43787 1648420816.915725 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f7c35dc6a10) = 43788
+43787 1648420816.917239 close(3)        = 0
+43787 1648420816.917333 close(5)        = 0
+43787 1648420816.917488 read(4,  <unfinished ...>
+43788 1648420816.917625 close(3)        = 0
+43788 1648420816.917718 close(5)        = 0
+43788 1648420816.917773 close(4)        = 0
+43788 1648420816.924141 read(3, "\37"..., 8192) = 3190
+43788 1648420816.924259 read(3, "", 5002) = 0
+43788 1648420816.924496 write(1, "."..., 4096) = 4096
+43788 1648420816.924579 close(3 <unfinished ...>
+43787 1648420816.924594 <... read resumed>"."..., 4096) = 4096
+43788 1648420816.924618 <... close resumed>) = 0
+43787 1648420816.924680 read(4,  <unfinished ...>
+43788 1648420816.925331 write(1, "\n"..., 3830) = 3830
+43787 1648420816.925429 <... read resumed>"\n"..., 67) = 67
+43787 1648420816.925472 close(4)        = 0
+43788 1648420816.925808 +++ exited with 0 +++
+43787 1648420816.925870 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=43788, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+43787 1648420816.926036 openat(AT_FDCWD, "/usr/local/man", O_RDONLY|O_PATH|O_DIRECTORY) = 3
+43787 1648420816.926164 close(3)        = 0
+43787 1648420816.926233 openat(AT_FDCWD, "/usr/share/man", O_RDONLY|O_PATH|O_DIRECTORY) = 3
+43787 1648420816.926334 close(3)        = 0
+43787 1648420816.926396 openat(AT_FDCWD, "/var/cache/man/index.db", O_RDONLY) = 3
+43787 1648420816.926546 read(3, "\317"..., 72) = 72
+43787 1648420816.926611 read(3, "\5"..., 4024) = 4024
+43787 1648420816.926709 read(3, "\0"..., 4096) = 4096
+43787 1648420816.927407 close(3)        = 0
+43787 1648420816.927566 openat(AT_FDCWD, "/usr/local/man", O_RDONLY|O_PATH|O_DIRECTORY) = 3
+43787 1648420816.927676 close(3)        = 0
+43787 1648420816.927739 openat(AT_FDCWD, "/usr/share/man", O_RDONLY|O_PATH|O_DIRECTORY) = 3
+43787 1648420816.927839 close(3)        = 0
+43787 1648420816.927899 openat(AT_FDCWD, "/usr/local/man", O_RDONLY|O_PATH|O_DIRECTORY) = 3
+43787 1648420816.927999 close(3)        = 0
+43787 1648420816.928072 openat(AT_FDCWD, "/usr/share/man/man8", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+43787 1648420816.929106 close(3)        = 0
+43787 1648420816.929180 openat(AT_FDCWD, "/usr/share/man", O_RDONLY|O_PATH|O_DIRECTORY) = 3
+43787 1648420816.929284 close(3)        = 0
+43787 1648420816.929346 openat(AT_FDCWD, "/usr/local/man", O_RDONLY|O_PATH|O_DIRECTORY) = 3
+43787 1648420816.929446 close(3)        = 0
+43787 1648420816.929508 openat(AT_FDCWD, "/usr/share/man/man3", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+43787 1648420816.932190 close(3)        = 0
+43787 1648420816.932280 openat(AT_FDCWD, "/usr/share/man", O_RDONLY|O_PATH|O_DIRECTORY) = 3
+43787 1648420816.932385 close(3)        = 0
+43787 1648420816.932448 openat(AT_FDCWD, "/usr/local/man", O_RDONLY|O_PATH|O_DIRECTORY) = 3
+43787 1648420816.932549 close(3)        = 0
+43787 1648420816.932612 openat(AT_FDCWD, "/usr/share/man/man2", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+43787 1648420816.933343 close(3)        = 0
+43787 1648420816.933411 openat(AT_FDCWD, "/usr/share/man", O_RDONLY|O_PATH|O_DIRECTORY) = 3
+43787 1648420816.933511 close(3)        = 0
+43787 1648420816.933574 openat(AT_FDCWD, "/usr/local/man", O_RDONLY|O_PATH|O_DIRECTORY) = 3
+43787 1648420816.933674 close(3)        = 0
+43787 1648420816.933738 openat(AT_FDCWD, "/usr/share/man", O_RDONLY|O_PATH|O_DIRECTORY) = 3
+43787 1648420816.933835 close(3)        = 0
+43787 1648420816.933895 openat(AT_FDCWD, "/usr/local/man", O_RDONLY|O_PATH|O_DIRECTORY) = 3
+43787 1648420816.933993 close(3)        = 0
+43787 1648420816.934056 openat(AT_FDCWD, "/usr/share/man", O_RDONLY|O_PATH|O_DIRECTORY) = 3
+43787 1648420816.934154 close(3)        = 0
+43787 1648420816.934214 openat(AT_FDCWD, "/usr/local/man", O_RDONLY|O_PATH|O_DIRECTORY) = 3
+43787 1648420816.934328 close(3)        = 0
+43787 1648420816.934391 openat(AT_FDCWD, "/usr/share/man", O_RDONLY|O_PATH|O_DIRECTORY) = 3
+43787 1648420816.934489 close(3)        = 0
+43787 1648420816.934548 openat(AT_FDCWD, "/usr/local/man", O_RDONLY|O_PATH|O_DIRECTORY) = 3
+43787 1648420816.934647 close(3)        = 0
+43787 1648420816.934709 openat(AT_FDCWD, "/usr/share/man", O_RDONLY|O_PATH|O_DIRECTORY) = 3
+43787 1648420816.934806 close(3)        = 0
+43787 1648420816.934866 openat(AT_FDCWD, "/usr/local/man", O_RDONLY|O_PATH|O_DIRECTORY) = 3
+43787 1648420816.934963 close(3)        = 0
+43787 1648420816.935024 openat(AT_FDCWD, "/usr/share/man/man5", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+43787 1648420816.935581 close(3)        = 0
+43787 1648420816.935656 openat(AT_FDCWD, "/usr/share/man", O_RDONLY|O_PATH|O_DIRECTORY) = 3
+43787 1648420816.935758 close(3)        = 0
+43787 1648420816.935819 openat(AT_FDCWD, "/usr/local/man", O_RDONLY|O_PATH|O_DIRECTORY) = 3
+43787 1648420816.935920 close(3)        = 0
+43787 1648420816.935968 openat(AT_FDCWD, "/usr/share/man/man4", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+43787 1648420816.936149 close(3)        = 0
+43787 1648420816.936201 openat(AT_FDCWD, "/usr/share/man", O_RDONLY|O_PATH|O_DIRECTORY) = 3
+43787 1648420816.936278 close(3)        = 0
+43787 1648420816.936325 openat(AT_FDCWD, "/usr/local/man", O_RDONLY|O_PATH|O_DIRECTORY) = 3
+43787 1648420816.936405 close(3)        = 0
+43787 1648420816.936451 openat(AT_FDCWD, "/usr/share/man", O_RDONLY|O_PATH|O_DIRECTORY) = 3
+43787 1648420816.936526 close(3)        = 0
+43787 1648420816.936573 openat(AT_FDCWD, "/usr/local/man", O_RDONLY|O_PATH|O_DIRECTORY) = 3
+43787 1648420816.936649 close(3)        = 0
+43787 1648420816.936696 openat(AT_FDCWD, "/usr/share/man/man6", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+43787 1648420816.936838 close(3)        = 0
+43787 1648420816.936884 openat(AT_FDCWD, "/usr/share/man", O_RDONLY|O_PATH|O_DIRECTORY) = 3
+43787 1648420816.936959 close(3)        = 0
+43787 1648420816.937005 openat(AT_FDCWD, "/usr/local/man", O_RDONLY|O_PATH|O_DIRECTORY) = 3
+43787 1648420816.937081 close(3)        = 0
+43787 1648420816.937128 openat(AT_FDCWD, "/usr/share/man/man7", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+43787 1648420816.937478 close(3)        = 0
+43787 1648420816.937536 openat(AT_FDCWD, "/usr/share/man", O_RDONLY|O_PATH|O_DIRECTORY) = 3
+43787 1648420816.937614 close(3)        = 0
+43787 1648420816.937839 openat(AT_FDCWD, "/usr/share/man/man1/ls.1.gz", O_RDONLY) = 3
+43787 1648420816.937951 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f7c35dc6a10) = 43789
+43787 1648420816.938145 close(3)        = 0
+43787 1648420816.938186 close(5)        = 0
+43787 1648420816.938279 read(4,  <unfinished ...>
+43789 1648420816.938495 close(3)        = 0
+43789 1648420816.938556 close(5)        = 0
+43789 1648420816.938591 close(4)        = 0
+43789 1648420816.943124 read(3, "\37"..., 8192) = 3190
+43789 1648420816.943175 read(3, "", 5002) = 0
+43789 1648420816.943340 write(1, "."..., 4096) = 4096
+43787 1648420816.943388 <... read resumed>"."..., 4096) = 4096
+43789 1648420816.943404 close(3)        = 0
+43787 1648420816.943445 read(4,  <unfinished ...>
+43789 1648420816.943934 write(1, "\n"..., 3830) = 3830
+43787 1648420816.943974 <... read resumed>"\n"..., 67) = 67
+43787 1648420816.944006 close(4)        = 0
+43789 1648420816.944198 +++ exited with 0 +++
+43787 1648420816.944251 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=43789, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+43787 1648420816.944829 openat(AT_FDCWD, "/usr/share/man/man1/ls.1.gz", O_RDONLY) = 3
+43787 1648420816.944932 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f7c35dc6a10) = 43790
+43787 1648420816.945122 close(3)        = 0
+43787 1648420816.945165 close(5)        = 0
+43787 1648420816.945263 read(4,  <unfinished ...>
+43790 1648420816.945345 close(3)        = 0
+43790 1648420816.945408 close(5)        = 0
+43790 1648420816.945456 close(4)        = 0
+43790 1648420816.950052 read(3, "\37"..., 8192) = 3190
+43790 1648420816.950113 read(3, "", 5002) = 0
+43790 1648420816.950288 write(1, "."..., 4096) = 4096
+43787 1648420816.950334 <... read resumed>"."..., 4096) = 4096
+43790 1648420816.950354 close(3)        = 0
+43787 1648420816.950567 openat(AT_FDCWD, "/dev/tty", O_RDONLY) = 3
+43787 1648420816.950700 close(3)        = 0
+43790 1648420816.950985 write(1, "\n"..., 3830) = 3830
+43787 1648420816.951103 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f7c35dc6a10) = 43791
+43790 1648420816.951252 +++ exited with 0 +++
+43787 1648420816.951260 close(3)        = 0
+43787 1648420816.951290 close(7)        = 0
+43787 1648420816.951346 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=43790, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+43791 1648420816.951465 close(3)        = 0
+43791 1648420816.951524 close(7)        = 0
+43791 1648420816.951552 close(6 <unfinished ...>
+43787 1648420816.951563 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+43791 1648420816.951573 <... close resumed>) = 0
+43791 1648420816.951592 close(5)        = 0
+43791 1648420816.951630 close(4)        = 0
+43791 1648420816.951665 openat(AT_FDCWD, "/dev/null", O_WRONLY) = 3
+43787 1648420816.951740 <... clone resumed>, child_tidptr=0x7f7c35dc6a10) = 43792
+43791 1648420816.951778 close(3 <unfinished ...>
+43787 1648420816.951787 close(6 <unfinished ...>
+43791 1648420816.951802 <... close resumed>) = 0
+43787 1648420816.951810 <... close resumed>) = 0
+43787 1648420816.951834 close(7)        = 0
+43787 1648420816.951965 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+43792 1648420816.951982 close(6)        = 0
+43792 1648420816.952053 close(7)        = 0
+43792 1648420816.952096 close(3)        = 0
+43787 1648420816.952133 <... clone resumed>, child_tidptr=0x7f7c35dc6a10) = 43793
+43792 1648420816.952147 close(5 <unfinished ...>
+43787 1648420816.952164 close(3 <unfinished ...>
+43792 1648420816.952178 <... close resumed>) = 0
+43787 1648420816.952198 <... close resumed>) = 0
+43792 1648420816.952223 close(4 <unfinished ...>
+43787 1648420816.952235 close(7 <unfinished ...>
+43792 1648420816.952254 <... close resumed>) = 0
+43787 1648420816.952265 <... close resumed>) = 0
+43792 1648420816.952284 openat(AT_FDCWD, "/dev/null", O_WRONLY) = 3
+43792 1648420816.952383 close(3)        = 0
+43787 1648420816.952450 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+43793 1648420816.952463 close(3)        = 0
+43787 1648420816.952609 <... clone resumed>, child_tidptr=0x7f7c35dc6a10) = 43794
+43787 1648420816.952642 close(6)        = 0
+43787 1648420816.952715 close(7)        = 0
+43787 1648420816.952861 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+43794 1648420816.953010 close(6 <unfinished ...>
+43787 1648420816.953026 <... clone resumed>, child_tidptr=0x7f7c35dc6a10) = 43795
+43794 1648420816.953039 <... close resumed>) = 0
+43787 1648420816.953052 close(3)        = 0
+43787 1648420816.953091 close(7 <unfinished ...>
+43794 1648420816.953104 close(7 <unfinished ...>
+43787 1648420816.953116 <... close resumed>) = 0
+43794 1648420816.953127 <... close resumed>) = 0
+43794 1648420816.953147 close(3)        = 0
+43794 1648420816.953186 close(5)        = 0
+43794 1648420816.953227 close(4)        = 0
+43794 1648420816.953266 openat(AT_FDCWD, "/dev/null", O_WRONLY) = 3
+43794 1648420816.953358 close(3)        = 0
+43793 1648420816.953440 close(7)        = 0
+43787 1648420816.953485 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+43793 1648420816.953499 close(6 <unfinished ...>
+43795 1648420816.953729 close(3)        = 0
+43795 1648420816.953791 close(7)        = 0
+43795 1648420816.953829 close(6)        = 0
+43795 1648420816.953868 close(5)        = 0
+43795 1648420816.953906 close(4)        = 0
+43795 1648420816.953942 openat(AT_FDCWD, "/dev/null", O_WRONLY) = 3
+43795 1648420816.954034 close(3)        = 0
+43793 1648420816.954789 <... close resumed>) = 0
+43787 1648420816.954810 <... clone resumed>, child_tidptr=0x7f7c35dc6a10) = 43796
+43793 1648420816.954825 close(5 <unfinished ...>
+43791 1648420816.957156 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f7c35dc6a10) = 43797
+43791 1648420816.957351 close(3)        = 0
+43791 1648420816.957412 close(5)        = 0
+43791 1648420816.957678 read(4,  <unfinished ...>
+43797 1648420816.957800 close(3)        = 0
+43797 1648420816.957855 close(5)        = 0
+43797 1648420816.957884 close(4)        = 0
+43797 1648420816.957917 close(4)        = -1 EBADF (Bad file descriptor)
+43797 1648420816.957949 close(5)        = -1 EBADF (Bad file descriptor)
+43792 1648420816.958014 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f7c35dc6a10) = 43798
+43792 1648420816.958200 close(3)        = 0
+43792 1648420816.958248 close(5 <unfinished ...>
+43797 1648420816.958273 read(3,  <unfinished ...>
+43792 1648420816.958281 <... close resumed>) = 0
+43792 1648420816.958526 read(4,  <unfinished ...>
+43793 1648420816.958626 <... close resumed>) = 0
+43787 1648420816.958648 close(3 <unfinished ...>
+43793 1648420816.958667 close(4 <unfinished ...>
+43787 1648420816.958676 <... close resumed>) = 0
+43793 1648420816.958696 <... close resumed>) = 0
+43787 1648420816.958711 close(9 <unfinished ...>
+43798 1648420816.958723 close(3 <unfinished ...>
+43793 1648420816.958732 openat(AT_FDCWD, "/dev/null", O_WRONLY <unfinished ...>
+43798 1648420816.958754 <... close resumed>) = 0
+43787 1648420816.958762 <... close resumed>) = 0
+43793 1648420816.958779 <... openat resumed>) = 3
+43798 1648420816.958806 close(5)        = 0
+43793 1648420816.958842 close(3 <unfinished ...>
+43798 1648420816.958854 close(4 <unfinished ...>
+43793 1648420816.958867 <... close resumed>) = 0
+43798 1648420816.958880 <... close resumed>) = 0
+43798 1648420816.958902 close(4)        = -1 EBADF (Bad file descriptor)
+43787 1648420816.958957 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+43798 1648420816.958970 close(5 <unfinished ...>
+43799 1648420816.959279 close(8)        = 0
+43799 1648420816.959313 close(7)        = 0
+43799 1648420816.959345 close(4)        = 0
+43799 1648420816.959377 close(5)        = 0
+43799 1648420816.959408 close(6)        = 0
+43799 1648420816.959536 execve("/usr/local/sbin/pager", ["p"...], ["L"..., "S"..., "M"..., "U"..., "S"..., "H"..., "O"..., "M"..., "C"..., "M"..., "S"..., "L"..., "_"..., "T"..., "P"..., "M"..., "D"..., "L"..., "X"..., "L"..., "S"..., "S"..., "M"..., "L"..., "S"..., "P"..., "M"..., "M"..., "M"..., "L"..., "L"..., "M"...]) = -1 ENOENT (No such file or directory)
+43799 1648420816.959635 execve("/usr/local/bin/pager", ["p"...], ["L"..., "S"..., "M"..., "U"..., "S"..., "H"..., "O"..., "M"..., "C"..., "M"..., "S"..., "L"..., "_"..., "T"..., "P"..., "M"..., "D"..., "L"..., "X"..., "L"..., "S"..., "S"..., "M"..., "L"..., "S"..., "P"..., "M"..., "M"..., "M"..., "L"..., "L"..., "M"...]) = -1 ENOENT (No such file or directory)
+43799 1648420816.959713 execve("/usr/sbin/pager", ["p"...], ["L"..., "S"..., "M"..., "U"..., "S"..., "H"..., "O"..., "M"..., "C"..., "M"..., "S"..., "L"..., "_"..., "T"..., "P"..., "M"..., "D"..., "L"..., "X"..., "L"..., "S"..., "S"..., "M"..., "L"..., "S"..., "P"..., "M"..., "M"..., "M"..., "L"..., "L"..., "M"...]) = -1 ENOENT (No such file or directory)
+43799 1648420816.959786 execve("/usr/bin/pager", ["p"...], ["L"..., "S"..., "M"..., "U"..., "S"..., "H"..., "O"..., "M"..., "C"..., "M"..., "S"..., "L"..., "_"..., "T"..., "P"..., "M"..., "D"..., "L"..., "X"..., "L"..., "S"..., "S"..., "M"..., "L"..., "S"..., "P"..., "M"..., "M"..., "M"..., "L"..., "L"..., "M"...] <unfinished ...>
+43787 1648420816.959864 <... clone resumed>, child_tidptr=0x7f7c35dc6a10) = 43799
+43798 1648420816.959879 <... close resumed>) = -1 EBADF (Bad file descriptor)
+43787 1648420816.959899 close(8 <unfinished ...>
+43794 1648420816.960094 execve("/usr/local/sbin/tbl", ["t"...], ["L"..., "S"..., "M"..., "U"..., "S"..., "H"..., "O"..., "M"..., "C"..., "M"..., "S"..., "L"..., "_"..., "T"..., "P"..., "M"..., "D"..., "L"..., "X"..., "L"..., "S"..., "S"..., "M"..., "L"..., "S"..., "P"..., "M"..., "M"..., "M"..., "L"...] <unfinished ...>
+43799 1648420816.960169 <... execve resumed>) = 0
+43794 1648420816.960181 <... execve resumed>) = -1 ENOENT (No such file or directory)
+43794 1648420816.960203 execve("/usr/local/bin/tbl", ["t"...], ["L"..., "S"..., "M"..., "U"..., "S"..., "H"..., "O"..., "M"..., "C"..., "M"..., "S"..., "L"..., "_"..., "T"..., "P"..., "M"..., "D"..., "L"..., "X"..., "L"..., "S"..., "S"..., "M"..., "L"..., "S"..., "P"..., "M"..., "M"..., "M"..., "L"...]) = -1 ENOENT (No such file or directory)
+43794 1648420816.960287 execve("/usr/sbin/tbl", ["t"...], ["L"..., "S"..., "M"..., "U"..., "S"..., "H"..., "O"..., "M"..., "C"..., "M"..., "S"..., "L"..., "_"..., "T"..., "P"..., "M"..., "D"..., "L"..., "X"..., "L"..., "S"..., "S"..., "M"..., "L"..., "S"..., "P"..., "M"..., "M"..., "M"..., "L"...]) = -1 ENOENT (No such file or directory)
+43794 1648420816.960364 execve("/usr/bin/tbl", ["t"...], ["L"..., "S"..., "M"..., "U"..., "S"..., "H"..., "O"..., "M"..., "C"..., "M"..., "S"..., "L"..., "_"..., "T"..., "P"..., "M"..., "D"..., "L"..., "X"..., "L"..., "S"..., "S"..., "M"..., "L"..., "S"..., "P"..., "M"..., "M"..., "M"..., "L"...] <unfinished ...>
+43799 1648420816.960452 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+43794 1648420816.960675 <... execve resumed>) = 0
+43794 1648420816.960943 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+43794 1648420816.961027 close(3)        = 0
+43794 1648420816.961063 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+43794 1648420816.961100 read(3, "\177"..., 832) = 832
+43794 1648420816.961377 close(3)        = 0
+43794 1648420816.961418 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+43794 1648420816.961457 read(3, "\177"..., 832) = 832
+43794 1648420816.961620 close(3 <unfinished ...>
+43799 1648420816.961634 close(3 <unfinished ...>
+43795 1648420816.961655 execve("/usr/local/sbin/nroff", ["n"..., "-"..., "-"..., "-"..., "-"...], ["L"..., "S"..., "M"..., "U"..., "S"..., "H"..., "O"..., "M"..., "C"..., "M"..., "S"..., "L"..., "_"..., "T"..., "P"..., "M"..., "D"..., "L"..., "X"..., "L"..., "S"..., "S"..., "M"..., "L"..., "S"..., "P"..., "M"..., "M"..., "M"..., "L"...] <unfinished ...>
+43799 1648420816.961686 <... close resumed>) = 0
+43794 1648420816.961696 <... close resumed>) = 0
+43799 1648420816.961710 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libtinfo.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+43795 1648420816.961737 <... execve resumed>) = -1 ENOENT (No such file or directory)
+43794 1648420816.961749 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+43799 1648420816.961765 <... openat resumed>) = 3
+43795 1648420816.961788 execve("/usr/local/bin/nroff", ["n"..., "-"..., "-"..., "-"..., "-"...], ["L"..., "S"..., "M"..., "U"..., "S"..., "H"..., "O"..., "M"..., "C"..., "M"..., "S"..., "L"..., "_"..., "T"..., "P"..., "M"..., "D"..., "L"..., "X"..., "L"..., "S"..., "S"..., "M"..., "L"..., "S"..., "P"..., "M"..., "M"..., "M"..., "L"...] <unfinished ...>
+43799 1648420816.961819 read(3,  <unfinished ...>
+43794 1648420816.961827 <... openat resumed>) = 3
+43787 1648420816.961857 <... close resumed>) = 0
+43794 1648420816.961866 read(3,  <unfinished ...>
+43799 1648420816.961884 <... read resumed>"\177"..., 832) = 832
+43795 1648420816.961905 <... execve resumed>) = -1 ENOENT (No such file or directory)
+43794 1648420816.961920 <... read resumed>"\177"..., 832) = 832
+43795 1648420816.961949 execve("/usr/sbin/nroff", ["n"..., "-"..., "-"..., "-"..., "-"...], ["L"..., "S"..., "M"..., "U"..., "S"..., "H"..., "O"..., "M"..., "C"..., "M"..., "S"..., "L"..., "_"..., "T"..., "P"..., "M"..., "D"..., "L"..., "X"..., "L"..., "S"..., "S"..., "M"..., "L"..., "S"..., "P"..., "M"..., "M"..., "M"..., "L"...] <unfinished ...>
+43796 1648420816.962031 close(3 <unfinished ...>
+43795 1648420816.962053 <... execve resumed>) = -1 ENOENT (No such file or directory)
+43796 1648420816.962082 <... close resumed>) = 0
+43795 1648420816.962096 execve("/usr/bin/nroff", ["n"..., "-"..., "-"..., "-"..., "-"...], ["L"..., "S"..., "M"..., "U"..., "S"..., "H"..., "O"..., "M"..., "C"..., "M"..., "S"..., "L"..., "_"..., "T"..., "P"..., "M"..., "D"..., "L"..., "X"..., "L"..., "S"..., "S"..., "M"..., "L"..., "S"..., "P"..., "M"..., "M"..., "M"..., "L"...] <unfinished ...>
+43796 1648420816.962410 close(9 <unfinished ...>
+43795 1648420816.962424 <... execve resumed>) = 0
+43796 1648420816.962448 <... close resumed>) = 0
+43798 1648420816.962469 read(3,  <unfinished ...>
+43796 1648420816.962492 close(8)        = 0
+43796 1648420816.962564 close(7)        = 0
+43799 1648420816.962632 close(3 <unfinished ...>
+43796 1648420816.962647 close(4 <unfinished ...>
+43799 1648420816.962673 <... close resumed>) = 0
+43796 1648420816.962686 <... close resumed>) = 0
+43799 1648420816.962713 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+43796 1648420816.962728 close(5)        = 0
+43799 1648420816.962756 <... openat resumed>) = 3
+43799 1648420816.962784 read(3,  <unfinished ...>
+43796 1648420816.962793 close(6 <unfinished ...>
+43795 1648420816.962799 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC <unfinished ...>
+43799 1648420816.962836 <... read resumed>"\177"..., 832) = 832
+43796 1648420816.962849 <... close resumed>) = 0
+43795 1648420816.962854 <... openat resumed>) = 3
+43787 1648420816.962891 read(4, "\n"..., 4096) = 3830
+43793 1648420816.962973 execve("/usr/local/sbin/preconv", ["p"..., "-"..., "U"...], ["L"..., "S"..., "M"..., "U"..., "S"..., "H"..., "O"..., "M"..., "C"..., "M"..., "S"..., "L"..., "_"..., "T"..., "P"..., "M"..., "D"..., "L"..., "X"..., "L"..., "S"..., "S"..., "M"..., "L"..., "S"..., "P"..., "M"..., "M"..., "M"..., "L"...] <unfinished ...>
+43787 1648420816.963007 write(5, "."..., 7926 <unfinished ...>
+43795 1648420816.963026 close(3 <unfinished ...>
+43797 1648420816.963051 <... read resumed>"."..., 8192) = 7926
+43795 1648420816.963068 <... close resumed>) = 0
+43793 1648420816.963080 <... execve resumed>) = -1 ENOENT (No such file or directory)
+43787 1648420816.963089 <... write resumed>) = 7926
+43797 1648420816.963102 read(3,  <unfinished ...>
+43796 1648420816.963110 read(0,  <unfinished ...>
+43795 1648420816.963115 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+43793 1648420816.963129 execve("/usr/local/bin/preconv", ["p"..., "-"..., "U"...], ["L"..., "S"..., "M"..., "U"..., "S"..., "H"..., "O"..., "M"..., "C"..., "M"..., "S"..., "L"..., "_"..., "T"..., "P"..., "M"..., "D"..., "L"..., "X"..., "L"..., "S"..., "S"..., "M"..., "L"..., "S"..., "P"..., "M"..., "M"..., "M"..., "L"...] <unfinished ...>
+43795 1648420816.963154 <... openat resumed>) = 3
+43794 1648420816.963162 close(3 <unfinished ...>
+43795 1648420816.963187 read(3,  <unfinished ...>
+43794 1648420816.963202 <... close resumed>) = 0
+43793 1648420816.963214 <... execve resumed>) = -1 ENOENT (No such file or directory)
+43795 1648420816.963226 <... read resumed>"\177"..., 832) = 832
+43794 1648420816.963265 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+43793 1648420816.963278 execve("/usr/sbin/preconv", ["p"..., "-"..., "U"...], ["L"..., "S"..., "M"..., "U"..., "S"..., "H"..., "O"..., "M"..., "C"..., "M"..., "S"..., "L"..., "_"..., "T"..., "P"..., "M"..., "D"..., "L"..., "X"..., "L"..., "S"..., "S"..., "M"..., "L"..., "S"..., "P"..., "M"..., "M"..., "M"..., "L"...] <unfinished ...>
+43787 1648420816.963297 read(4,  <unfinished ...>
+43794 1648420816.963310 <... openat resumed>) = 3
+43787 1648420816.963322 <... read resumed>"", 4096) = 0
+43794 1648420816.963335 read(3,  <unfinished ...>
+43793 1648420816.963341 <... execve resumed>) = -1 ENOENT (No such file or directory)
+43794 1648420816.963358 <... read resumed>"\177"..., 832) = 832
+43787 1648420816.963369 close(4 <unfinished ...>
+43793 1648420816.963388 execve("/usr/bin/preconv", ["p"..., "-"..., "U"...], ["L"..., "S"..., "M"..., "U"..., "S"..., "H"..., "O"..., "M"..., "C"..., "M"..., "S"..., "L"..., "_"..., "T"..., "P"..., "M"..., "D"..., "L"..., "X"..., "L"..., "S"..., "S"..., "M"..., "L"..., "S"..., "P"..., "M"..., "M"..., "M"..., "L"...] <unfinished ...>
+43787 1648420816.963449 <... close resumed>) = 0
+43787 1648420816.963496 close(5)        = 0
+43797 1648420816.963545 <... read resumed>"", 266) = 0
+43797 1648420816.963630 write(1, "."..., 4096 <unfinished ...>
+43799 1648420816.963651 close(3)        = 0
+43797 1648420816.963688 <... write resumed>) = 4096
+43791 1648420816.963696 <... read resumed>"."..., 4096) = 4096
+43797 1648420816.963718 close(3)        = 0
+43793 1648420816.963765 <... execve resumed>) = 0
+43794 1648420816.963827 close(3)        = 0
+43791 1648420816.963873 read(4,  <unfinished ...>
+43795 1648420816.964267 close(3 <unfinished ...>
+43793 1648420816.964297 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC <unfinished ...>
+43795 1648420816.964316 <... close resumed>) = 0
+43793 1648420816.964336 <... openat resumed>) = 3
+43799 1648420816.964373 openat(AT_FDCWD, "/usr/bin/.sysless", O_RDONLY) = -1 ENOENT (No such file or directory)
+43799 1648420816.964459 openat(AT_FDCWD, "/etc/sysless", O_RDONLY) = -1 ENOENT (No such file or directory)
+43797 1648420816.964506 write(1, "\n"..., 3830 <unfinished ...>
+43799 1648420816.964527 openat(AT_FDCWD, "/root/.less", O_RDONLY) = -1 ENOENT (No such file or directory)
+43797 1648420816.964569 <... write resumed>) = 3830
+43791 1648420816.964576 <... read resumed>"\n"..., 4163) = 3830
+43791 1648420816.964635 write(1, "."..., 4096) = 4096
+43798 1648420816.964689 <... read resumed>"."..., 8192) = 4096
+43791 1648420816.964725 read(4,  <unfinished ...>
+43798 1648420816.964745 read(3,  <unfinished ...>
+43797 1648420816.964799 +++ exited with 0 +++
+43791 1648420816.964809 <... read resumed>"", 8192) = 0
+43791 1648420816.964832 close(4)        = 0
+43799 1648420816.965047 openat(AT_FDCWD, "/lib/terminfo/x/xterm-256color", O_RDONLY <unfinished ...>
+43793 1648420816.965072 close(3 <unfinished ...>
+43799 1648420816.965083 <... openat resumed>) = 3
+43793 1648420816.965097 <... close resumed>) = 0
+43793 1648420816.965121 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libuchardet.so.0", O_RDONLY|O_CLOEXEC <unfinished ...>
+43799 1648420816.965135 read(3, "\36"..., 32768) = 3503
+43793 1648420816.965162 <... openat resumed>) = 3
+43799 1648420816.965173 read(3, "", 28672) = 0
+43793 1648420816.965195 read(3, "\177"..., 832) = 832
+43799 1648420816.965240 close(3)        = 0
+43791 1648420816.965503 write(1, "r"..., 3838 <unfinished ...>
+43799 1648420816.965525 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC <unfinished ...>
+43798 1648420816.965557 <... read resumed>"r"..., 4096) = 3838
+43799 1648420816.965573 <... openat resumed>) = 3
+43794 1648420816.965580 read(0,  <unfinished ...>
+43791 1648420816.965588 <... write resumed>) = 3838
+43798 1648420816.965607 read(3,  <unfinished ...>
+43799 1648420816.965672 close(3)        = 0
+43799 1648420816.965736 openat(AT_FDCWD, "/root/.lesshst", O_RDONLY) = -1 ENOENT (No such file or directory)
+43799 1648420816.965788 openat(AT_FDCWD, "/dev/tty", O_RDONLY <unfinished ...>
+43793 1648420816.965804 close(3 <unfinished ...>
+43799 1648420816.965814 <... openat resumed>) = 3
+43793 1648420816.965825 <... close resumed>) = 0
+43798 1648420816.965882 <... read resumed>"", 258) = 0
+43793 1648420816.965891 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+43791 1648420816.965915 +++ exited with 0 +++
+43793 1648420816.965936 <... openat resumed>) = 3
+43793 1648420816.965961 read(3,  <unfinished ...>
+43787 1648420816.965969 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=43791, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+43798 1648420816.965981 write(1, "."..., 4096 <unfinished ...>
+43793 1648420816.965992 <... read resumed>"\177"..., 832) = 832
+43798 1648420816.966017 <... write resumed>) = 4096
+43792 1648420816.966048 <... read resumed>"."..., 4096) = 4096
+43798 1648420816.966080 close(3)        = 0
+43792 1648420816.966145 read(4,  <unfinished ...>
+43795 1648420816.966169 openat(AT_FDCWD, "/usr/bin/nroff", O_RDONLY) = 3
+43795 1648420816.966259 close(3)        = 0
+43793 1648420816.966427 close(3)        = 0
+43793 1648420816.966465 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC <unfinished ...>
+43799 1648420816.966479 write(1, "\33"..., 25 <unfinished ...>
+43793 1648420816.966496 <... openat resumed>) = 3
+43799 1648420816.966505 <... write resumed>) = 25
+43799 1648420816.966525 read(0,  <unfinished ...>
+43793 1648420816.966582 read(3, "\177"..., 832) = 832
+43795 1648420816.966616 read(10, "#"..., 8192) = 3293
+43795 1648420816.966721 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+43793 1648420816.966746 close(3)        = 0
+43793 1648420816.966777 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+43798 1648420816.966797 write(1, "r"..., 3838 <unfinished ...>
+43793 1648420816.966810 <... openat resumed>) = 3
+43798 1648420816.966825 <... write resumed>) = 3838
+43795 1648420816.966833 <... clone resumed>, child_tidptr=0x7f1d3aa62850) = 43800
+43792 1648420816.966838 <... read resumed>"r"..., 61440) = 3838
+43793 1648420816.966852 read(3,  <unfinished ...>
+43795 1648420816.966863 close(4 <unfinished ...>
+43792 1648420816.966868 read(4,  <unfinished ...>
+43795 1648420816.966876 <... close resumed>) = 0
+43793 1648420816.966884 <... read resumed>"\177"..., 832) = 832
+43795 1648420816.966895 read(3,  <unfinished ...>
+43800 1648420816.966960 close(10)       = 0
+43800 1648420816.966999 close(3)        = 0
+43800 1648420816.967040 close(4 <unfinished ...>
+43798 1648420816.967053 +++ exited with 0 +++
+43800 1648420816.967059 <... close resumed>) = 0
+43792 1648420816.967066 <... read resumed>"", 57602) = 0
+43800 1648420816.967095 openat(AT_FDCWD, "/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+43800 1648420816.967160 close(2)        = 0
+43800 1648420816.967221 close(3 <unfinished ...>
+43792 1648420816.967226 write(1, "."..., 4096 <unfinished ...>
+43800 1648420816.967237 <... close resumed>) = 0
+43792 1648420816.967247 <... write resumed>) = 4096
+43800 1648420816.967255 close(10)       = 0
+43792 1648420816.967271 read(4, "", 65536) = 0
+43793 1648420816.967296 close(3 <unfinished ...>
+43792 1648420816.967301 read(4,  <unfinished ...>
+43793 1648420816.967311 <... close resumed>) = 0
+43792 1648420816.967320 <... read resumed>"", 65536) = 0
+43793 1648420816.967333 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+43792 1648420816.967341 close(4 <unfinished ...>
+43793 1648420816.967352 <... openat resumed>) = 3
+43792 1648420816.967363 <... close resumed>) = 0
+43793 1648420816.967373 read(3,  <unfinished ...>
+43800 1648420816.967381 execve("/usr/bin/locale", ["l"..., "c"...], ["L"..., "S"..., "M"..., "U"..., "S"..., "H"..., "O"..., "M"..., "C"..., "M"..., "M"..., "S"..., "L"..., "_"..., "T"..., "P"..., "L"..., "M"..., "D"..., "L"..., "X"..., "L"..., "S"..., "S"..., "M"..., "L"..., "S"..., "P"..., "M"..., "M"...] <unfinished ...>
+43793 1648420816.967401 <... read resumed>"\177"..., 832) = 832
+43800 1648420816.967535 <... execve resumed>) = 0
+43793 1648420816.967583 close(3)        = 0
+43800 1648420816.967658 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+43800 1648420816.967741 close(3)        = 0
+43800 1648420816.967779 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+43800 1648420816.967819 read(3, "\177"..., 832) = 832
+43792 1648420816.967974 write(1, "r"..., 3838) = 3838
+43792 1648420816.968192 +++ exited with 0 +++
+43800 1648420816.968204 close(3 <unfinished ...>
+43787 1648420816.968224 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=43792, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+43800 1648420816.968360 <... close resumed>) = 0
+43793 1648420816.968765 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC <unfinished ...>
+43800 1648420816.968795 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC <unfinished ...>
+43793 1648420816.968812 <... openat resumed>) = 3
+43800 1648420816.968820 <... openat resumed>) = 3
+43800 1648420816.968870 close(3 <unfinished ...>
+43793 1648420816.968876 close(3 <unfinished ...>
+43800 1648420816.968882 <... close resumed>) = 0
+43793 1648420816.968888 <... close resumed>) = 0
+43800 1648420816.968957 write(1, "U"..., 6) = 6
+43795 1648420816.968992 <... read resumed>"U"..., 128) = 6
+43795 1648420816.969011 read(3,  <unfinished ...>
+43793 1648420816.969070 openat(AT_FDCWD, "/usr/lib/charset.alias", O_RDONLY|O_NOFOLLOW) = -1 ENOENT (No such file or directory)
+43800 1648420816.969102 +++ exited with 0 +++
+43795 1648420816.969106 <... read resumed>"", 128) = 0
+43795 1648420816.969117 close(3)        = 0
+43793 1648420816.969141 read(0, "."..., 4096) = 4096
+43795 1648420816.969281 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+43793 1648420816.969298 write(1, "."..., 4096) = 4096
+43794 1648420816.969329 <... read resumed>"."..., 4096) = 4096
+43793 1648420816.969342 read(0, "r"..., 4096) = 3838
+43795 1648420816.969374 <... clone resumed>, child_tidptr=0x7f1d3aa62850) = 43801
+43801 1648420816.969411 close(10)       = 0
+43801 1648420816.969470 execve("/usr/bin/groff", ["g"..., "-"..., "-"..., "-"..., "-"..., "-"...], ["L"..., "S"..., "M"..., "U"..., "S"..., "H"..., "O"..., "M"..., "C"..., "M"..., "M"..., "S"..., "L"..., "_"..., "T"..., "P"..., "L"..., "M"..., "D"..., "L"..., "X"..., "L"..., "S"..., "S"..., "M"..., "L"..., "S"..., "G"..., "P"..., "M"..., "M"...] <unfinished ...>
+43794 1648420816.969491 write(1, "."..., 4096 <unfinished ...>
+43793 1648420816.969507 read(0,  <unfinished ...>
+43794 1648420816.969518 <... write resumed>) = 4096
+43793 1648420816.969528 <... read resumed>"", 4096) = 0
+43794 1648420816.969539 read(0,  <unfinished ...>
+43793 1648420816.969550 write(1, " "..., 3846 <unfinished ...>
+43794 1648420816.969575 <... read resumed>" "..., 4096) = 3846
+43793 1648420816.969584 <... write resumed>) = 3846
+43801 1648420816.969643 <... execve resumed>) = 0
+43794 1648420816.969683 read(0, "", 4096) = 0
+43793 1648420816.969761 +++ exited with 0 +++
+43801 1648420816.969766 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC <unfinished ...>
+43794 1648420816.969774 write(1, "i"..., 3929 <unfinished ...>
+43801 1648420816.969783 <... openat resumed>) = 3
+43794 1648420816.969791 <... write resumed>) = 3929
+43787 1648420816.969831 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=43793, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+43801 1648420816.969856 close(3)        = 0
+43801 1648420816.969893 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+43801 1648420816.969930 read(3, "\177"..., 832) = 832
+43794 1648420816.969961 +++ exited with 0 +++
+43787 1648420816.969981 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=43794, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+43801 1648420816.970131 close(3)        = 0
+43801 1648420816.970167 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+43801 1648420816.970201 read(3, "\177"..., 832) = 832
+43801 1648420816.970332 close(3)        = 0
+43801 1648420816.970364 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+43801 1648420816.970397 read(3, "\177"..., 832) = 832
+43801 1648420816.970523 close(3)        = 0
+43801 1648420816.970552 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+43801 1648420816.970588 read(3, "\177"..., 832) = 832
+43801 1648420816.970818 close(3)        = 0
+43801 1648420816.971751 openat(AT_FDCWD, "/usr/share/groff/site-font/devutf8/DESC", O_RDONLY) = -1 ENOENT (No such file or directory)
+43801 1648420816.971791 openat(AT_FDCWD, "/usr/share/groff/1.22.4/font/devutf8/DESC", O_RDONLY) = 3
+43801 1648420816.971837 read(3, "r"..., 4096) = 96
+43801 1648420816.971872 read(3, "", 4096) = 0
+43801 1648420816.971894 close(3)        = 0
+43801 1648420816.971942 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f0c979d4210) = 43802
+43802 1648420816.972043 close(1 <unfinished ...>
+43801 1648420816.972050 close(4 <unfinished ...>
+43802 1648420816.972057 <... close resumed>) = 0
+43801 1648420816.972065 <... close resumed>) = 0
+43801 1648420816.972076 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+43802 1648420816.972093 close(4)        = 0
+43802 1648420816.972124 close(3)        = 0
+43802 1648420816.972167 execve("/usr/bin/troff", ["t"..., "-"..., "-"..., "-"..., "-"..., "-"...], ["L"..., "S"..., "M"..., "U"..., "S"..., "H"..., "O"..., "M"..., "C"..., "M"..., "M"..., "S"..., "L"..., "_"..., "T"..., "P"..., "L"..., "M"..., "D"..., "L"..., "X"..., "L"..., "S"..., "S"..., "M"..., "L"..., "S"..., "G"..., "P"..., "M"..., "M"..., "G"...] <unfinished ...>
+43803 1648420816.972190 close(0 <unfinished ...>
+43801 1648420816.972198 <... clone resumed>, child_tidptr=0x7f0c979d4210) = 43803
+43803 1648420816.972208 <... close resumed>) = 0
+43801 1648420816.972217 close(3)        = 0
+43803 1648420816.972247 close(3)        = 0
+43803 1648420816.972287 execve("/usr/bin/grotty", ["g"...], ["L"..., "S"..., "M"..., "U"..., "S"..., "H"..., "O"..., "M"..., "C"..., "M"..., "M"..., "S"..., "L"..., "_"..., "T"..., "P"..., "L"..., "M"..., "D"..., "L"..., "X"..., "L"..., "S"..., "S"..., "M"..., "L"..., "S"..., "G"..., "P"..., "M"..., "M"..., "G"...] <unfinished ...>
+43802 1648420816.972355 <... execve resumed>) = 0
+43803 1648420816.972416 <... execve resumed>) = 0
+43803 1648420816.972511 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+43803 1648420816.972577 close(3 <unfinished ...>
+43802 1648420816.972586 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC <unfinished ...>
+43803 1648420816.972595 <... close resumed>) = 0
+43802 1648420816.972604 <... openat resumed>) = 3
+43803 1648420816.972612 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+43803 1648420816.972644 read(3, "\177"..., 832) = 832
+43802 1648420816.972676 close(3)        = 0
+43802 1648420816.972705 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+43802 1648420816.972740 read(3, "\177"..., 832) = 832
+43803 1648420816.972840 close(3)        = 0
+43803 1648420816.972875 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+43803 1648420816.972911 read(3, "\177"..., 832) = 832
+43802 1648420816.972979 close(3)        = 0
+43802 1648420816.973011 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+43803 1648420816.973048 close(3 <unfinished ...>
+43802 1648420816.973054 read(3,  <unfinished ...>
+43803 1648420816.973060 <... close resumed>) = 0
+43802 1648420816.973068 <... read resumed>"\177"..., 832) = 832
+43803 1648420816.973077 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+43803 1648420816.973110 read(3, "\177"..., 832) = 832
+43802 1648420816.973216 close(3 <unfinished ...>
+43803 1648420816.973229 close(3 <unfinished ...>
+43802 1648420816.973235 <... close resumed>) = 0
+43803 1648420816.973242 <... close resumed>) = 0
+43802 1648420816.973250 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC <unfinished ...>
+43803 1648420816.973261 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+43802 1648420816.973272 <... openat resumed>) = 3
+43803 1648420816.973280 <... openat resumed>) = 3
+43802 1648420816.973287 read(3,  <unfinished ...>
+43803 1648420816.973294 read(3,  <unfinished ...>
+43802 1648420816.973302 <... read resumed>"\177"..., 832) = 832
+43803 1648420816.973310 <... read resumed>"\177"..., 832) = 832
+43802 1648420816.973451 close(3)        = 0
+43802 1648420816.973482 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+43802 1648420816.973516 read(3, "\177"..., 832) = 832
+43803 1648420816.973549 close(3)        = 0
+43802 1648420816.973770 close(3)        = 0
+43803 1648420816.974443 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+43803 1648420816.974533 close(3)        = 0
+43803 1648420816.974595 read(0,  <unfinished ...>
+43802 1648420816.976202 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+43802 1648420816.976285 close(3)        = 0
+43802 1648420816.976519 openat(AT_FDCWD, "/usr/share/groff/site-font/devutf8/DESC", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.976558 openat(AT_FDCWD, "/usr/share/groff/1.22.4/font/devutf8/DESC", O_RDONLY) = 3
+43802 1648420816.976610 read(3, "r"..., 4096) = 96
+43802 1648420816.976649 read(3, "", 4096) = 0
+43802 1648420816.976676 close(3)        = 0
+43802 1648420816.976709 openat(AT_FDCWD, "/usr/share/groff/site-font/devutf8/R", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.976743 openat(AT_FDCWD, "/usr/share/groff/1.22.4/font/devutf8/R", O_RDONLY) = 3
+43802 1648420816.976793 read(3, "n"..., 4096) = 4096
+43802 1648420816.977196 read(3, "5"..., 4096) = 4096
+43802 1648420816.977718 read(3, "0"..., 4096) = 4096
+43802 1648420816.978216 read(3, "0"..., 4096) = 4096
+43802 1648420816.978777 read(3, "1"..., 4096) = 4096
+43802 1648420816.979099 read(3, "F"..., 4096) = 4096
+43802 1648420816.979578 read(3, "F"..., 4096) = 466
+43802 1648420816.979711 read(3, "", 4096) = 0
+43802 1648420816.979875 close(3)        = 0
+43802 1648420816.979924 openat(AT_FDCWD, "/usr/share/groff/site-font/devutf8/I", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.979964 openat(AT_FDCWD, "/usr/share/groff/1.22.4/font/devutf8/I", O_RDONLY) = 3
+43802 1648420816.980013 read(3, "n"..., 4096) = 4096
+43802 1648420816.980192 read(3, "4"..., 4096) = 4096
+43802 1648420816.980439 read(3, "0"..., 4096) = 4096
+43802 1648420816.980692 read(3, "5"..., 4096) = 4096
+43802 1648420816.980935 read(3, "9"..., 4096) = 4096
+43802 1648420816.981167 read(3, "\t"..., 4096) = 4096
+43802 1648420816.981408 read(3, "D"..., 4096) = 481
+43802 1648420816.981506 read(3, "", 4096) = 0
+43802 1648420816.981605 close(3)        = 0
+43802 1648420816.981642 openat(AT_FDCWD, "/usr/share/groff/site-font/devutf8/B", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.981698 openat(AT_FDCWD, "/usr/share/groff/1.22.4/font/devutf8/B", O_RDONLY) = 3
+43802 1648420816.981776 read(3, "n"..., 4096) = 4096
+43802 1648420816.981952 read(3, "4"..., 4096) = 4096
+43802 1648420816.982129 read(3, "0"..., 4096) = 4096
+43802 1648420816.982347 read(3, "5"..., 4096) = 4096
+43802 1648420816.982580 read(3, "9"..., 4096) = 4096
+43802 1648420816.982797 read(3, "\t"..., 4096) = 4096
+43802 1648420816.982998 read(3, "D"..., 4096) = 481
+43802 1648420816.983062 read(3, "", 4096) = 0
+43802 1648420816.983149 close(3)        = 0
+43802 1648420816.983176 openat(AT_FDCWD, "/usr/share/groff/site-font/devutf8/BI", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.983223 openat(AT_FDCWD, "/usr/share/groff/1.22.4/font/devutf8/BI", O_RDONLY) = 3
+43802 1648420816.983275 read(3, "n"..., 4096) = 4096
+43802 1648420816.983527 read(3, "2"..., 4096) = 4096
+43802 1648420816.983773 read(3, "u"..., 4096) = 4096
+43802 1648420816.984189 read(3, "5"..., 4096) = 4096
+43802 1648420816.984417 read(3, "3"..., 4096) = 4096
+43802 1648420816.984624 read(3, "5"..., 4096) = 4096
+43802 1648420816.984821 read(3, "5"..., 4096) = 482
+43802 1648420816.984866 read(3, "", 4096) = 0
+43802 1648420816.984926 close(3)        = 0
+43802 1648420816.985033 openat(AT_FDCWD, "/etc/localtime", O_RDONLY|O_CLOEXEC) = 3
+43802 1648420816.985107 read(3, "T"..., 4096) = 3536
+43802 1648420816.985147 read(3, "T"..., 4096) = 2252
+43802 1648420816.985171 close(3)        = 0
+43802 1648420816.985222 openat(AT_FDCWD, "/usr/lib/groff/site-tmac/troffrc", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.985253 openat(AT_FDCWD, "/usr/share/groff/site-tmac/troffrc", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.985282 openat(AT_FDCWD, "/usr/share/groff/1.22.4/tmac/troffrc", O_RDONLY) = 3
+43802 1648420816.985327 read(3, "."..., 4096) = 1642
+43802 1648420816.985356 openat(AT_FDCWD, "/usr/lib/groff/site-tmac/composite.tmac", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.985395 openat(AT_FDCWD, "/usr/share/groff/site-tmac/composite.tmac", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.985422 openat(AT_FDCWD, "/usr/share/groff/1.22.4/tmac/composite.tmac", O_RDONLY) = 4
+43802 1648420816.985465 read(4, "."..., 4096) = 805
+43802 1648420816.985534 read(4, "", 4096) = 0
+43802 1648420816.985591 close(4)        = 0
+43802 1648420816.985616 openat(AT_FDCWD, "/usr/lib/groff/site-tmac/fallbacks.tmac", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.985643 openat(AT_FDCWD, "/usr/share/groff/site-tmac/fallbacks.tmac", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.985669 openat(AT_FDCWD, "/usr/share/groff/1.22.4/tmac/fallbacks.tmac", O_RDONLY) = 4
+43802 1648420816.985709 read(4, "."..., 4096) = 1416
+43802 1648420816.985847 read(4, "", 4096) = 0
+43802 1648420816.985869 close(4)        = 0
+43802 1648420816.985919 openat(AT_FDCWD, "/usr/lib/groff/site-tmac/tty.tmac", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.985946 openat(AT_FDCWD, "/usr/share/groff/site-tmac/tty.tmac", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.985973 openat(AT_FDCWD, "/usr/share/groff/1.22.4/tmac/tty.tmac", O_RDONLY) = 4
+43802 1648420816.986015 read(4, "."..., 4096) = 1882
+43802 1648420816.986107 openat(AT_FDCWD, "/usr/lib/groff/site-tmac/unicode.tmac", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.986134 openat(AT_FDCWD, "/usr/share/groff/site-tmac/unicode.tmac", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.986160 openat(AT_FDCWD, "/usr/share/groff/1.22.4/tmac/unicode.tmac", O_RDONLY) = 5
+43802 1648420816.986203 read(5, "."..., 4096) = 93
+43802 1648420816.986229 read(5, "", 4096) = 0
+43802 1648420816.986249 close(5)        = 0
+43802 1648420816.986292 openat(AT_FDCWD, "/usr/lib/groff/site-tmac/latin1.tmac", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.986318 openat(AT_FDCWD, "/usr/share/groff/site-tmac/latin1.tmac", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.986344 openat(AT_FDCWD, "/usr/share/groff/1.22.4/tmac/latin1.tmac", O_RDONLY) = 5
+43802 1648420816.986386 read(5, "."..., 4096) = 2272
+43802 1648420816.986721 read(5, "", 4096) = 0
+43802 1648420816.986751 close(5)        = 0
+43802 1648420816.986793 read(4, "", 4096) = 0
+43802 1648420816.986815 close(4)        = 0
+43802 1648420816.986858 openat(AT_FDCWD, "/usr/lib/groff/site-tmac/hyphen.us", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.986890 openat(AT_FDCWD, "/usr/share/groff/site-tmac/hyphen.us", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.986917 openat(AT_FDCWD, "/usr/share/groff/1.22.4/tmac/hyphen.us", O_RDONLY) = 4
+43802 1648420816.986958 read(4, "%"..., 4096) = 4096
+43802 1648420816.987168 read(4, "\n"..., 4096) = 4096
+43802 1648420816.987407 read(4, "r"..., 4096) = 4096
+43802 1648420816.987663 read(4, "v"..., 4096) = 4096
+43802 1648420816.987964 read(4, "l"..., 4096) = 4096
+43802 1648420816.988351 read(4, "b"..., 4096) = 4096
+43802 1648420816.988643 read(4, "\n"..., 4096) = 3545
+43802 1648420816.988973 read(4, "", 4096) = 0
+43802 1648420816.989018 close(4)        = 0
+43802 1648420816.989105 openat(AT_FDCWD, "/usr/lib/groff/site-tmac/hyphenex.us", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.989166 openat(AT_FDCWD, "/usr/share/groff/site-tmac/hyphenex.us", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.989202 openat(AT_FDCWD, "/usr/share/groff/1.22.4/tmac/hyphenex.us", O_RDONLY) = 4
+43802 1648420816.989247 read(4, "%"..., 4096) = 4096
+43802 1648420816.989846 read(4, "s"..., 4096) = 4096
+43802 1648420816.990070 read(4, "w"..., 4096) = 4096
+43802 1648420816.990313 read(4, "-"..., 4096) = 4096
+43802 1648420816.990578 read(4, "n"..., 4096) = 4096
+43802 1648420816.990857 read(4, "i"..., 4096) = 1276
+43802 1648420816.990985 read(4, "", 4096) = 0
+43802 1648420816.991030 close(4)        = 0
+43802 1648420816.991075 openat(AT_FDCWD, "/usr/lib/groff/site-tmac/papersize.tmac", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.991125 openat(AT_FDCWD, "/usr/share/groff/site-tmac/papersize.tmac", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.991153 openat(AT_FDCWD, "/usr/share/groff/1.22.4/tmac/papersize.tmac", O_RDONLY) = 4
+43802 1648420816.991195 read(4, "."..., 4096) = 4096
+43802 1648420816.991289 read(4, "="..., 4096) = 236
+43802 1648420816.991315 read(4, "", 4096) = 0
+43802 1648420816.991337 close(4)        = 0
+43802 1648420816.991361 openat(AT_FDCWD, "/usr/lib/groff/site-tmac/pspic.tmac", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.991387 openat(AT_FDCWD, "/usr/share/groff/site-tmac/pspic.tmac", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.991413 openat(AT_FDCWD, "/usr/share/groff/1.22.4/tmac/pspic.tmac", O_RDONLY) = 4
+43802 1648420816.991461 read(4, "."..., 4096) = 4096
+43802 1648420816.991581 read(4, " "..., 4096) = 902
+43802 1648420816.991624 read(4, "", 4096) = 0
+43802 1648420816.991646 close(4)        = 0
+43802 1648420816.991670 openat(AT_FDCWD, "/usr/lib/groff/site-tmac/pdfpic.tmac", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.991699 openat(AT_FDCWD, "/usr/share/groff/site-tmac/pdfpic.tmac", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.991726 openat(AT_FDCWD, "/usr/share/groff/1.22.4/tmac/pdfpic.tmac", O_RDONLY) = 4
+43802 1648420816.991766 read(4, "."..., 4096) = 3758
+43802 1648420816.991880 read(4, "", 4096) = 0
+43802 1648420816.991902 close(4)        = 0
+43802 1648420816.991928 read(3, "", 4096) = 0
+43802 1648420816.991949 close(3)        = 0
+43802 1648420816.991973 openat(AT_FDCWD, "/root/tty-char.tmac", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.991998 openat(AT_FDCWD, "/usr/lib/groff/site-tmac/tty-char.tmac", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.992022 openat(AT_FDCWD, "/usr/share/groff/site-tmac/tty-char.tmac", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.992047 openat(AT_FDCWD, "/usr/share/groff/1.22.4/tmac/tty-char.tmac", O_RDONLY) = 3
+43802 1648420816.992088 read(3, "."..., 4096) = 4096
+43802 1648420816.992829 read(3, "["..., 4096) = 1728
+43802 1648420816.993267 openat(AT_FDCWD, "/root/latin1.tmac", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.993320 openat(AT_FDCWD, "/usr/lib/groff/site-tmac/latin1.tmac", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.993352 openat(AT_FDCWD, "/usr/share/groff/site-tmac/latin1.tmac", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.993378 openat(AT_FDCWD, "/usr/share/groff/1.22.4/tmac/latin1.tmac", O_RDONLY) = 4
+43802 1648420816.993419 read(4, "."..., 4096) = 2272
+43802 1648420816.993521 read(4, "", 4096) = 0
+43802 1648420816.993551 close(4)        = 0
+43802 1648420816.993579 read(3, "", 4096) = 0
+43802 1648420816.993606 close(3)        = 0
+43802 1648420816.993635 openat(AT_FDCWD, "/root/andoc.tmac", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.993669 openat(AT_FDCWD, "/usr/lib/groff/site-tmac/andoc.tmac", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.993699 openat(AT_FDCWD, "/usr/share/groff/site-tmac/andoc.tmac", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.993729 openat(AT_FDCWD, "/usr/share/groff/1.22.4/tmac/andoc.tmac", O_RDONLY) = 3
+43802 1648420816.993775 read(3, "."..., 4096) = 2654
+43802 1648420816.993855 read(3, "", 4096) = 0
+43802 1648420816.993881 close(3)        = 0
+43802 1648420816.993908 openat(AT_FDCWD, "/usr/lib/groff/site-tmac/troffrc-end", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.993940 openat(AT_FDCWD, "/usr/share/groff/site-tmac/troffrc-end", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.993973 openat(AT_FDCWD, "/usr/share/groff/1.22.4/tmac/troffrc-end", O_RDONLY) = 3
+43802 1648420816.994339 read(3, "."..., 4096) = 1167
+43802 1648420816.994435 read(3, "", 4096) = 0
+43802 1648420816.994459 close(3)        = 0
+43802 1648420816.994503 read(0, "."..., 4096) = 4096
+43802 1648420816.994563 openat(AT_FDCWD, "/root/an-old.tmac", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.994594 openat(AT_FDCWD, "/usr/lib/groff/site-tmac/an-old.tmac", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.994621 openat(AT_FDCWD, "/usr/share/groff/site-tmac/an-old.tmac", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.994648 openat(AT_FDCWD, "/usr/share/groff/1.22.4/tmac/an-old.tmac", O_RDONLY) = 3
+43802 1648420816.994693 read(3, "."..., 4096) = 4096
+43802 1648420816.994743 openat(AT_FDCWD, "/root/devtag.tmac", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.994768 openat(AT_FDCWD, "/usr/lib/groff/site-tmac/devtag.tmac", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.994793 openat(AT_FDCWD, "/usr/share/groff/site-tmac/devtag.tmac", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.994819 openat(AT_FDCWD, "/usr/share/groff/1.22.4/tmac/devtag.tmac", O_RDONLY) = 4
+43802 1648420816.994859 read(4, "."..., 4096) = 3830
+43802 1648420816.994962 read(4, "", 4096) = 0
+43802 1648420816.994983 close(4)        = 0
+43802 1648420816.995104 read(3, "n"..., 4096) = 4096
+43802 1648420816.995268 read(3, "a"..., 4096) = 4096
+43802 1648420816.995419 read(3, " "..., 4096) = 2374
+43802 1648420816.995642 openat(AT_FDCWD, "/root/an-ext.tmac", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.995799 openat(AT_FDCWD, "/usr/lib/groff/site-tmac/an-ext.tmac", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.995845 openat(AT_FDCWD, "/usr/share/groff/site-tmac/an-ext.tmac", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.995876 openat(AT_FDCWD, "/usr/share/groff/1.22.4/tmac/an-ext.tmac", O_RDONLY) = 4
+43802 1648420816.995927 read(4, "."..., 4096) = 3788
+43802 1648420816.996053 read(4, "", 4096) = 0
+43802 1648420816.996075 close(4)        = 0
+43802 1648420816.996100 openat(AT_FDCWD, "/root/man.local", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.996127 openat(AT_FDCWD, "/usr/lib/groff/site-tmac/man.local", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.996154 openat(AT_FDCWD, "/usr/share/groff/site-tmac/man.local", O_RDONLY) = 4
+43802 1648420816.996197 read(4, "."..., 4096) = 1048
+43802 1648420816.996251 read(4, "", 4096) = 0
+43802 1648420816.996272 close(4)        = 0
+43802 1648420816.996300 read(3, "", 4096) = 0
+43802 1648420816.996323 close(3)        = 0
+43802 1648420816.996486 write(1, "x"..., 161 <unfinished ...>
+43803 1648420816.996522 <... read resumed>"x"..., 4096) = 161
+43802 1648420816.996542 <... write resumed>) = 161
+43802 1648420816.996605 write(1, "x"..., 50 <unfinished ...>
+43803 1648420816.996648 openat(AT_FDCWD, "/usr/share/groff/site-font/devutf8/DESC", O_RDONLY) = -1 ENOENT (No such file or directory)
+43802 1648420816.996718 <... write resumed>) = 50
+43803 1648420816.996729 openat(AT_FDCWD, "/usr/share/groff/1.22.4/font/devutf8/DESC", O_RDONLY) = 3
+43803 1648420816.996826 read(3,  <unfinished ...>
+43802 1648420816.996839 write(1, "x"..., 115 <unfinished ...>
+43803 1648420816.996858 <... read resumed>"r"..., 4096) = 96
+43802 1648420816.996874 <... write resumed>) = 115
+43802 1648420816.996896 write(1, "x"..., 43) = 43
+43803 1648420816.996958 read(3, "", 4096) = 0
+43803 1648420816.996984 close(3)        = 0
+43802 1648420816.997019 write(1, "x"..., 129 <unfinished ...>
+43803 1648420816.997028 openat(AT_FDCWD, "/usr/share/groff/site-font/devutf8/R", O_RDONLY <unfinished ...>
+43802 1648420816.997037 <... write resumed>) = 129
+43803 1648420816.997043 <... openat resumed>) = -1 ENOENT (No such file or directory)
+43802 1648420816.997052 write(1, "x"..., 46 <unfinished ...>
+43803 1648420816.997060 openat(AT_FDCWD, "/usr/share/groff/1.22.4/font/devutf8/R", O_RDONLY <unfinished ...>
+43802 1648420816.997068 <... write resumed>) = 46
+43803 1648420816.997076 <... openat resumed>) = 3
+43803 1648420816.997114 read(3, "n"..., 4096) = 4096
+43803 1648420816.997455 read(3, "5"..., 4096) = 4096
+43802 1648420816.997798 write(1, "x"..., 1688 <unfinished ...>
+43803 1648420816.997815 read(3,  <unfinished ...>
+43802 1648420816.997823 <... write resumed>) = 1688
+43803 1648420816.997831 <... read resumed>"0"..., 4096) = 4096
+43802 1648420816.998082 write(1, "x"..., 447) = 447
+43803 1648420816.998274 read(3, "0"..., 4096) = 4096
+43802 1648420816.998474 write(1, "x"..., 784) = 784
+43803 1648420816.998552 read(3, "1"..., 4096) = 4096
+43802 1648420816.999001 write(1, "x"..., 1055 <unfinished ...>
+43803 1648420816.999017 read(3,  <unfinished ...>
+43802 1648420816.999024 <... write resumed>) = 1055
+43803 1648420816.999031 <... read resumed>"F"..., 4096) = 4096
+43803 1648420816.999315 read(3, "F"..., 4096) = 466
+43803 1648420816.999492 read(3,  <unfinished ...>
+43802 1648420816.999518 write(1, "x"..., 1038 <unfinished ...>
+43803 1648420816.999545 <... read resumed>"", 4096) = 0
+43802 1648420816.999551 <... write resumed>) = 1038
+43803 1648420816.999568 close(3)        = 0
+43803 1648420816.999740 read(0, "x"..., 4096) = 4096
+43803 1648420816.999794 openat(AT_FDCWD, "/usr/share/groff/site-font/devutf8/B", O_RDONLY) = -1 ENOENT (No such file or directory)
+43803 1648420816.999834 openat(AT_FDCWD, "/usr/share/groff/1.22.4/font/devutf8/B", O_RDONLY) = 3
+43803 1648420816.999888 read(3, "n"..., 4096) = 4096
+43803 1648420817.000131 read(3, "4"..., 4096) = 4096
+43803 1648420817.000381 read(3, "0"..., 4096) = 4096
+43802 1648420817.000462 write(1, "x"..., 2238) = 2238
+43803 1648420817.000622 read(3, "5"..., 4096) = 4096
+43802 1648420817.000681 write(1, "x"..., 485) = 485
+43803 1648420817.000983 read(3,  <unfinished ...>
+43802 1648420817.000998 write(1, "x"..., 553 <unfinished ...>
+43803 1648420817.001019 <... read resumed>"9"..., 4096) = 4096
+43802 1648420817.001036 <... write resumed>) = 553
+43803 1648420817.001189 read(3, "\t"..., 4096) = 4096
+43802 1648420817.001227 read(0, "i"..., 4096) = 3929
+43803 1648420817.001455 read(3, "D"..., 4096) = 481
+43803 1648420817.001504 read(3, "", 4096) = 0
+43803 1648420817.001561 close(3)        = 0
+43803 1648420817.001633 openat(AT_FDCWD, "/usr/share/groff/site-font/devutf8/I", O_RDONLY) = -1 ENOENT (No such file or directory)
+43803 1648420817.001680 openat(AT_FDCWD, "/usr/share/groff/1.22.4/font/devutf8/I", O_RDONLY) = 3
+43803 1648420817.001737 read(3, "n"..., 4096) = 4096
+43803 1648420817.001976 read(3, "4"..., 4096) = 4096
+43802 1648420817.002042 write(1, "x"..., 1915) = 1915
+43803 1648420817.002205 read(3, "0"..., 4096) = 4096
+43803 1648420817.002489 read(3, "5"..., 4096) = 4096
+43802 1648420817.002574 write(1, "x"..., 1213) = 1213
+43803 1648420817.002709 read(3, "9"..., 4096) = 4096
+43802 1648420817.002765 write(1, "x"..., 343) = 343
+43803 1648420817.002919 read(3,  <unfinished ...>
+43802 1648420817.002924 write(1, "x"..., 378 <unfinished ...>
+43803 1648420817.002932 <... read resumed>"\t"..., 4096) = 4096
+43802 1648420817.002940 <... write resumed>) = 378
+43802 1648420817.003033 write(1, "x"..., 168) = 168
+43803 1648420817.003160 read(3, "D"..., 4096) = 481
+43803 1648420817.003208 read(3, "", 4096) = 0
+43802 1648420817.003239 write(1, "x"..., 358) = 358
+43803 1648420817.003287 close(3)        = 0
+43802 1648420817.003341 write(1, "x"..., 167) = 167
+43802 1648420817.003530 write(1, "x"..., 311) = 311
+43802 1648420817.003649 write(1, "x"..., 223) = 223
+43803 1648420817.003957 read(0, "t"..., 4096) = 4096
+43802 1648420817.004408 write(1, "x"..., 2010) = 2010
+43802 1648420817.004493 write(1, "x"..., 83) = 83
+43802 1648420817.004631 write(1, "x"..., 157) = 157
+43802 1648420817.004746 write(1, "x"..., 180) = 180
+43803 1648420817.004766 read(0,  <unfinished ...>
+43802 1648420817.004772 write(1, "x"..., 42 <unfinished ...>
+43803 1648420817.004780 <... read resumed>"t"..., 4096) = 4096
+43802 1648420817.004788 <... write resumed>) = 42
+43802 1648420817.004881 write(1, "x"..., 158) = 158
+43802 1648420817.004910 write(1, "x"..., 56) = 56
+43802 1648420817.005087 write(1, "x"..., 281) = 281
+43802 1648420817.005132 write(1, "x"..., 58) = 58
+43803 1648420817.005168 write(1, "L"..., 4096) = 4096
+43787 1648420817.005217 read(6, "L"..., 4096) = 4096
+43787 1648420817.005267 write(7, "L"..., 4096 <unfinished ...>
+43796 1648420817.005290 <... read resumed>"L"..., 4096) = 4096
+43787 1648420817.005301 <... write resumed>) = 4096
+43802 1648420817.005318 write(1, "x"..., 553) = 553
+43796 1648420817.005374 read(0,  <unfinished ...>
+43802 1648420817.005382 write(1, "x"..., 49) = 49
+43802 1648420817.005473 read(0, "", 4096) = 0
+43802 1648420817.005516 write(1, "x"..., 270) = 270
+43803 1648420817.005558 read(0, "s"..., 4096) = 4096
+43802 1648420817.005582 write(1, "V"..., 109) = 109
+43802 1648420817.005608 close(1)        = 0
+43803 1648420817.006110 read(0, "t"..., 4096) = 1369
+43803 1648420817.006280 write(1, " "..., 4096 <unfinished ...>
+43802 1648420817.006292 +++ exited with 0 +++
+43803 1648420817.006306 <... write resumed>) = 4096
+43787 1648420817.006329 read(6, " "..., 4096) = 4096
+43787 1648420817.006378 write(7, " "..., 4096 <unfinished ...>
+43796 1648420817.006400 <... read resumed>" "..., 4096) = 4096
+43787 1648420817.006414 <... write resumed>) = 4096
+43796 1648420817.006423 write(1, "L"..., 4096) = 4096
+43799 1648420817.006455 <... read resumed>"L"..., 8192) = 4096
+43796 1648420817.006469 read(0,  <unfinished ...>
+43803 1648420817.006603 write(1, "i"..., 1582) = 1582
+43803 1648420817.006630 close(0)        = 0
+43799 1648420817.007001 write(1, "L"..., 1023 <unfinished ...>
+43787 1648420817.007039 read(6,  <unfinished ...>
+43799 1648420817.007051 <... write resumed>) = 1023
+43787 1648420817.007060 <... read resumed>"i"..., 4096) = 1582
+43803 1648420817.007075 +++ exited with 0 +++
+43787 1648420817.007112 write(7, "i"..., 1582 <unfinished ...>
+43796 1648420817.007138 <... read resumed>"i"..., 4096) = 1582
+43787 1648420817.007150 <... write resumed>) = 1582
+43796 1648420817.007159 write(1, "r"..., 4096) = 4096
+43796 1648420817.007200 read(0,  <unfinished ...>
+43799 1648420817.007215 write(1, "\n"..., 1023) = 1023
+43801 1648420817.007390 +++ exited with 0 +++
+43799 1648420817.007396 write(1, "\n"..., 464) = 464
+43799 1648420817.007455 read(3,  <unfinished ...>
+43795 1648420817.007462 read(10, "", 8192) = 0
+43795 1648420817.007557 +++ exited with 0 +++
+43787 1648420817.007562 read(6, "", 4096) = 0
+43787 1648420817.007588 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=43795, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+43787 1648420817.007662 close(6)        = 0
+43787 1648420817.007688 close(7)        = 0
+43796 1648420817.007706 <... read resumed>"", 4096) = 0
+43796 1648420817.007718 write(1, "e"..., 1578) = 1578
+43796 1648420817.007849 +++ exited with 0 +++
+43787 1648420817.007864 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=43796, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+43799 1648420817.759913 <... read resumed>"q", 1) = 1
+43799 1648420817.760290 write(1, "\r"..., 28) = 28
+43799 1648420817.761364 +++ exited with 0 +++
+43787 1648420817.761723 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=43799, si_uid=0, si_status=0, si_utime=0, si_stime=1} ---
+43787 1648420817.764227 +++ exited with 0 +++
+43786 1648420817.764313 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=43787, si_uid=0, si_status=0, si_utime=1, si_stime=1} ---
+43786 1648420817.764675 +++ exited with 0 +++
+43758 1648420817.764912 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=43786, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+43758 1648420817.765295 clone(child_stack=0x7fa9c6fb2ff0, flags=CLONE_VM|CLONE_VFORK|SIGCHLD <unfinished ...>
+43804 1648420817.772717 execve("/bin/sh", ["s"..., "-"..., "l"...], ["X"..., "S"..., "_"..., "S"..., "L"..., "P"..., "L"..., "D"..., "P"..., "H"..., "L"..., "S"..., "L"..., "S"..., "C"..., "S"..., "S"..., "U"..., "O"..., "M"..., "M"..., "M"..., "M"..., "M"..., "L"..., "T"..., "M"...] <unfinished ...>
+43758 1648420817.773029 <... clone resumed>) = 43804
+43804 1648420817.773186 <... execve resumed>) = 0
+43804 1648420817.773536 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+43804 1648420817.773774 close(3)        = 0
+43804 1648420817.773887 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+43804 1648420817.774025 read(3, "\177"..., 832) = 832
+43804 1648420817.774787 close(3)        = 0
+43804 1648420817.775741 openat(AT_FDCWD, "d.txt", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+43804 1648420817.775849 close(1)        = 0
+43804 1648420817.775931 close(3)        = 0
+43804 1648420817.776025 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fa6e0a41850) = 43805
+43805 1648420817.776146 execve("/usr/bin/ls", ["l"..., "-"...], ["L"..., "S"..., "M"..., "U"..., "S"..., "H"..., "O"..., "M"..., "C"..., "M"..., "S"..., "L"..., "_"..., "T"..., "P"..., "M"..., "D"..., "L"..., "X"..., "L"..., "S"..., "S"..., "M"..., "L"..., "S"..., "P"..., "M"...]) = 0
+43805 1648420817.776441 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+43805 1648420817.776517 close(3)        = 0
+43805 1648420817.776551 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3
+43805 1648420817.776586 read(3, "\177"..., 832) = 832
+43805 1648420817.776794 close(3)        = 0
+43805 1648420817.776829 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+43805 1648420817.776866 read(3, "\177"..., 832) = 832
+43805 1648420817.777126 close(3)        = 0
+43805 1648420817.777166 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpcre2-8.so.0", O_RDONLY|O_CLOEXEC) = 3
+43805 1648420817.777204 read(3, "\177"..., 832) = 832
+43805 1648420817.777363 close(3)        = 0
+43805 1648420817.777396 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+43805 1648420817.777432 read(3, "\177"..., 832) = 832
+43805 1648420817.777579 close(3)        = 0
+43805 1648420817.777614 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+43805 1648420817.777651 read(3, "\177"..., 832) = 832
+43805 1648420817.777846 close(3)        = 0
+43805 1648420817.778466 openat(AT_FDCWD, "/proc/filesystems", O_RDONLY|O_CLOEXEC) = 3
+43805 1648420817.778534 read(3, "n"..., 1024) = 422
+43805 1648420817.778586 read(3, "", 1024) = 0
+43805 1648420817.778616 close(3)        = 0
+43805 1648420817.778687 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+43805 1648420817.778767 close(3)        = 0
+43805 1648420817.778866 openat(AT_FDCWD, "/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+43805 1648420817.778925 read(3, "#"..., 4096) = 2996
+43805 1648420817.778970 read(3, "", 4096) = 0
+43805 1648420817.779000 close(3)        = 0
+43805 1648420817.779041 openat(AT_FDCWD, "/usr/share/locale/en_US.UTF-8/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43805 1648420817.779080 openat(AT_FDCWD, "/usr/share/locale/en_US.utf8/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43805 1648420817.779115 openat(AT_FDCWD, "/usr/share/locale/en_US/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43805 1648420817.779149 openat(AT_FDCWD, "/usr/share/locale/en.UTF-8/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43805 1648420817.779183 openat(AT_FDCWD, "/usr/share/locale/en.utf8/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43805 1648420817.779217 openat(AT_FDCWD, "/usr/share/locale/en/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43805 1648420817.779256 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+43805 1648420817.779328 close(3)        = 0
+43805 1648420817.779398 openat(AT_FDCWD, ".", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+43805 1648420817.779627 close(4)        = 0
+43805 1648420817.779705 close(4)        = 0
+43805 1648420817.779741 openat(AT_FDCWD, "/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 4
+43805 1648420817.779802 read(4, "#"..., 4096) = 542
+43805 1648420817.779839 read(4, "", 4096) = 0
+43805 1648420817.779868 close(4)        = 0
+43805 1648420817.779899 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 4
+43805 1648420817.779970 close(4)        = 0
+43805 1648420817.780002 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 4
+43805 1648420817.780046 read(4, "\177"..., 832) = 832
+43805 1648420817.780213 close(4)        = 0
+43805 1648420817.780321 openat(AT_FDCWD, "/etc/passwd", O_RDONLY|O_CLOEXEC) = 4
+43805 1648420817.780395 read(4, "r"..., 4096) = 2732
+43805 1648420817.780428 close(4)        = 0
+43805 1648420817.780502 close(4)        = 0
+43805 1648420817.780575 close(4)        = 0
+43805 1648420817.780608 openat(AT_FDCWD, "/etc/group", O_RDONLY|O_CLOEXEC) = 4
+43805 1648420817.780685 read(4, "r"..., 4096) = 1030
+43805 1648420817.780718 close(4)        = 0
+43805 1648420817.780808 openat(AT_FDCWD, "/etc/passwd", O_RDONLY|O_CLOEXEC) = 4
+43805 1648420817.780877 read(4, "r"..., 4096) = 2732
+43805 1648420817.780917 close(4)        = 0
+43805 1648420817.780947 openat(AT_FDCWD, "/etc/group", O_RDONLY|O_CLOEXEC) = 4
+43805 1648420817.781016 read(4, "r"..., 4096) = 1030
+43805 1648420817.781055 close(4)        = 0
+43805 1648420817.783020 close(3)        = 0
+43805 1648420817.783111 openat(AT_FDCWD, "/usr/share/locale/en_US.UTF-8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43805 1648420817.783150 openat(AT_FDCWD, "/usr/share/locale/en_US.utf8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43805 1648420817.783187 openat(AT_FDCWD, "/usr/share/locale/en_US/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43805 1648420817.783221 openat(AT_FDCWD, "/usr/share/locale/en.UTF-8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43805 1648420817.783255 openat(AT_FDCWD, "/usr/share/locale/en.utf8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43805 1648420817.783289 openat(AT_FDCWD, "/usr/share/locale/en/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43805 1648420817.783323 openat(AT_FDCWD, "/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43805 1648420817.783364 openat(AT_FDCWD, "/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43805 1648420817.783398 openat(AT_FDCWD, "/usr/share/locale-langpack/en_US/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43805 1648420817.783441 openat(AT_FDCWD, "/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43805 1648420817.783478 openat(AT_FDCWD, "/usr/share/locale-langpack/en.utf8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+43805 1648420817.783511 openat(AT_FDCWD, "/usr/share/locale-langpack/en/LC_MESSAGES/coreutils.mo", O_RDONLY) = 3
+43805 1648420817.783581 close(3)        = 0
+43805 1648420817.783640 openat(AT_FDCWD, "/etc/localtime", O_RDONLY|O_CLOEXEC) = 3
+43805 1648420817.783716 read(3, "T"..., 4096) = 3536
+43805 1648420817.783766 read(3, "T"..., 4096) = 2252
+43805 1648420817.783802 close(3)        = 0
+43805 1648420817.783891 write(1, "t"..., 2198) = 2198
+43805 1648420817.783941 close(1)        = 0
+43805 1648420817.783970 close(2)        = 0
+43805 1648420817.784121 +++ exited with 0 +++
+43804 1648420817.784175 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=43805, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+43804 1648420817.784335 close(10)       = 0
+43804 1648420817.784436 +++ exited with 0 +++
+43758 1648420817.784507 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=43804, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+43758 1648420817.787417 +++ exited with 0 +++
+43756 1648420817.787563 close(1)        = 0
+43756 1648420817.787749 +++ exited with 0 +++
