@@ -1,0 +1,1036 @@
+35013 1648618477.515918 execve("/usr/bin/make", ["m"...], ["S"..., "C"..., "S"..., "S"..., "S"..., "P"..., "L"..., "X"..., "H"..., "L"..., "L"..., "L"..., "T"..., "L"..., "U"..., "D"..., "S"..., "P"..., "S"..., "M"..., "O"..., "_"...]) = 0
+35013 1648618477.517726 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+35013 1648618477.518265 close(3)        = 0
+35013 1648618477.518451 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+35013 1648618477.518582 read(3, "\177"..., 832) = 832
+35013 1648618477.519094 close(3)        = 0
+35013 1648618477.519179 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+35013 1648618477.519270 read(3, "\177"..., 832) = 832
+35013 1648618477.520045 close(3)        = 0
+35013 1648618477.522903 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+35013 1648618477.523199 close(3)        = 0
+35013 1648618477.525596 openat(AT_FDCWD, ".", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+35013 1648618477.525951 close(3)        = 0
+35013 1648618477.526067 openat(AT_FDCWD, "Makefile", O_RDONLY) = 3
+35013 1648618477.526149 read(3, "\n"..., 4096) = 62
+35013 1648618477.526203 read(3, "", 4096) = 0
+35013 1648618477.526237 close(3)        = 0
+35013 1648618477.526949 write(1, "j"..., 18) = 18
+35014 1648618477.527222 execve("/usr/local/sbin/java", ["j"..., "-"..., "h"...], ["X"..., "S"..., "_"..., "S"..., "L"..., "P"..., "L"..., "D"..., "P"..., "H"..., "L"..., "S"..., "L"..., "S"..., "C"..., "S"..., "S"..., "U"..., "O"..., "M"..., "M"..., "M"..., "M"..., "M"..., "L"..., "T"..., "M"...]) = -1 ENOENT (No such file or directory)
+35014 1648618477.527394 execve("/usr/local/bin/java", ["j"..., "-"..., "h"...], ["X"..., "S"..., "_"..., "S"..., "L"..., "P"..., "L"..., "D"..., "P"..., "H"..., "L"..., "S"..., "L"..., "S"..., "C"..., "S"..., "S"..., "U"..., "O"..., "M"..., "M"..., "M"..., "M"..., "M"..., "L"..., "T"..., "M"...]) = -1 ENOENT (No such file or directory)
+35014 1648618477.527455 execve("/usr/sbin/java", ["j"..., "-"..., "h"...], ["X"..., "S"..., "_"..., "S"..., "L"..., "P"..., "L"..., "D"..., "P"..., "H"..., "L"..., "S"..., "L"..., "S"..., "C"..., "S"..., "S"..., "U"..., "O"..., "M"..., "M"..., "M"..., "M"..., "M"..., "L"..., "T"..., "M"...]) = -1 ENOENT (No such file or directory)
+35014 1648618477.527510 execve("/usr/bin/java", ["j"..., "-"..., "h"...], ["X"..., "S"..., "_"..., "S"..., "L"..., "P"..., "L"..., "D"..., "P"..., "H"..., "L"..., "S"..., "L"..., "S"..., "C"..., "S"..., "S"..., "U"..., "O"..., "M"..., "M"..., "M"..., "M"..., "M"..., "L"..., "T"..., "M"...]) = 0
+35014 1648618477.527834 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/tls/haswell/x86_64/libjli.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35014 1648618477.527886 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/tls/haswell/libjli.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35014 1648618477.527930 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/tls/x86_64/libjli.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35014 1648618477.527975 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/tls/libjli.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35014 1648618477.528019 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/haswell/x86_64/libjli.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35014 1648618477.528063 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/haswell/libjli.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35014 1648618477.528107 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/x86_64/libjli.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35014 1648618477.528150 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/libjli.so", O_RDONLY|O_CLOEXEC) = 3
+35014 1648618477.528179 read(3, "\177"..., 832) = 832
+35014 1648618477.528327 close(3)        = 0
+35014 1648618477.528354 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35014 1648618477.528394 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35014 1648618477.528440 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35014 1648618477.528484 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35014 1648618477.528527 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35014 1648618477.528570 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35014 1648618477.528614 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35014 1648618477.528658 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35014 1648618477.528702 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35014 1648618477.528747 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+35014 1648618477.528808 close(3)        = 0
+35014 1648618477.528837 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+35014 1648618477.528866 read(3, "\177"..., 832) = 832
+35014 1648618477.529114 close(3)        = 0
+35014 1648618477.529149 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35014 1648618477.529180 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/../tls/haswell/x86_64/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35014 1648618477.529227 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/../tls/haswell/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35014 1648618477.529273 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/../tls/x86_64/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35014 1648618477.529317 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/../tls/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35014 1648618477.529361 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/../haswell/x86_64/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35014 1648618477.529405 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/../haswell/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35014 1648618477.529449 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/../x86_64/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35014 1648618477.529493 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/../libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35014 1648618477.529548 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+35014 1648618477.529579 read(3, "\177"..., 832) = 832
+35014 1648618477.529728 close(3)        = 0
+35014 1648618477.529782 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35014 1648618477.529823 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/../libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35014 1648618477.529858 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+35014 1648618477.529892 read(3, "\177"..., 832) = 832
+35014 1648618477.530100 close(3)        = 0
+35014 1648618477.530132 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35014 1648618477.530164 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/../libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35014 1648618477.530198 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+35014 1648618477.530230 read(3, "\177"..., 832) = 832
+35014 1648618477.530435 close(3)        = 0
+35014 1648618477.530982 openat(AT_FDCWD, "hw2.jar", O_RDONLY) = 3
+35014 1648618477.531050 read(3, "P"..., 22) = 22
+35014 1648618477.531094 read(3, "P"..., 46) = 46
+35014 1648618477.531136 read(3, "P"..., 30) = 30
+35014 1648618477.531177 read(3, "P"..., 1024) = 510
+35014 1648618477.531218 read(3, "P"..., 30) = 30
+35014 1648618477.531299 read(3, "\363"..., 87) = 87
+35014 1648618477.531345 close(3)        = 0
+35014 1648618477.531427 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/jvm.cfg", O_RDONLY) = 3
+35014 1648618477.531477 read(3, "-"..., 4096) = 54
+35014 1648618477.531505 read(3, "", 4096) = 0
+35014 1648618477.531529 close(3)        = 0
+35014 1648618477.531594 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so", O_RDONLY|O_CLOEXEC) = 3
+35014 1648618477.531623 read(3, "\177"..., 832) = 832
+35014 1648618477.531778 close(3)        = 0
+35014 1648618477.531815 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+35014 1648618477.531880 close(3)        = 0
+35014 1648618477.531908 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+35014 1648618477.531937 read(3, "\177"..., 832) = 832
+35014 1648618477.532109 close(3)        = 0
+35014 1648618477.532178 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+35014 1648618477.532209 read(3, "\177"..., 832) = 832
+35014 1648618477.532342 close(3)        = 0
+35014 1648618477.532371 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+35014 1648618477.532401 read(3, "\177"..., 832) = 832
+35014 1648618477.532530 close(3)        = 0
+35014 1648618477.535490 clone(child_stack=0x7f5cf0423fb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[35015], tls=0x7f5cf0424700, child_tidptr=0x7f5cf04249d0) = 35015
+35015 1648618477.535713 openat(AT_FDCWD, "/sys/devices/system/cpu", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+35015 1648618477.535817 close(3)        = 0
+35015 1648618477.535883 openat(AT_FDCWD, "/proc/stat", O_RDONLY|O_CLOEXEC) = 3
+35015 1648618477.535937 read(3, "c"..., 1024) = 1024
+35015 1648618477.535981 close(3)        = 0
+35015 1648618477.536011 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+35015 1648618477.536093 close(3)        = 0
+35015 1648618477.536123 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/librt.so.1", O_RDONLY|O_CLOEXEC) = 3
+35015 1648618477.536153 read(3, "\177"..., 832) = 832
+35015 1648618477.536290 close(3)        = 0
+35015 1648618477.536556 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/libverify.so", O_RDONLY) = 3
+35015 1648618477.536604 read(3, "\177"..., 4096) = 4096
+35015 1648618477.536653 read(3, "\177"..., 4096) = 4096
+35015 1648618477.536686 close(3)        = 0
+35015 1648618477.536717 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/libverify.so", O_RDONLY|O_CLOEXEC) = 3
+35015 1648618477.536753 read(3, "\177"..., 832) = 832
+35015 1648618477.536921 close(3)        = 0
+35015 1648618477.537040 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/libjava.so", O_RDONLY) = 3
+35015 1648618477.537102 read(3, "\177"..., 4096) = 4096
+35015 1648618477.537154 read(3, "\177"..., 4096) = 4096
+35015 1648618477.537187 close(3)        = 0
+35015 1648618477.537218 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/libjava.so", O_RDONLY|O_CLOEXEC) = 3
+35015 1648618477.537251 read(3, "\177"..., 832) = 832
+35015 1648618477.537413 close(3)        = 0
+35015 1648618477.537582 openat(AT_FDCWD, "/etc/localtime", O_RDONLY|O_CLOEXEC) = 3
+35015 1648618477.537687 read(3, "T"..., 4096) = 3536
+35015 1648618477.537743 read(3, "T"..., 4096) = 2252
+35015 1648618477.537835 close(3)        = 0
+35015 1648618477.537964 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/libjimage.so", O_RDONLY) = 3
+35015 1648618477.538026 read(3, "\177"..., 4096) = 4096
+35015 1648618477.538078 read(3, "\177"..., 4096) = 4096
+35015 1648618477.538111 close(3)        = 0
+35015 1648618477.538144 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/libjimage.so", O_RDONLY|O_CLOEXEC) = 3
+35015 1648618477.538178 read(3, "\177"..., 832) = 832
+35015 1648618477.538344 close(3)        = 0
+35015 1648618477.538428 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/modules", O_RDONLY) = 3
+35015 1648618477.538599 openat(AT_FDCWD, "/proc/self/mountinfo", O_RDONLY) = 4
+35015 1648618477.538696 read(4, "2"..., 1024) = 1024
+35015 1648618477.538778 read(4, "e"..., 1024) = 1024
+35015 1648618477.538855 read(4, "a"..., 1024) = 1024
+35015 1648618477.538927 read(4, " "..., 1024) = 1024
+35015 1648618477.538994 read(4, "7"..., 1024) = 1024
+35015 1648618477.539058 read(4, "t"..., 1024) = 864
+35015 1648618477.539124 read(4, "", 1024) = 0
+35015 1648618477.539152 close(4)        = 0
+35015 1648618477.539182 openat(AT_FDCWD, "/proc/self/cgroup", O_RDONLY) = 4
+35015 1648618477.539240 read(4, "1"..., 1024) = 547
+35015 1648618477.539352 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.use_hierarchy", O_RDONLY) = 5
+35015 1648618477.539427 read(5, "1"..., 4096) = 2
+35015 1648618477.539485 close(5)        = 0
+35015 1648618477.539554 read(4, "", 1024) = 0
+35015 1648618477.539583 close(4)        = 0
+35015 1648618477.539616 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.limit_in_bytes", O_RDONLY) = 4
+35015 1648618477.539683 read(4, "9"..., 4096) = 20
+35015 1648618477.539726 close(4)        = 0
+35015 1648618477.539759 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.stat", O_RDONLY) = 4
+35015 1648618477.539821 read(4, "c"..., 4096) = 775
+35015 1648618477.539921 close(4)        = 0
+35015 1648618477.539953 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/endorsed", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+35015 1648618477.539994 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/ext", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+35015 1648618477.540068 openat(AT_FDCWD, "/sys/fs/cgroup/cpu,cpuacct/cpu.cfs_quota_us", O_RDONLY) = 4
+35015 1648618477.540124 read(4, "-"..., 4096) = 3
+35015 1648618477.540157 close(4)        = 0
+35015 1648618477.540187 openat(AT_FDCWD, "/sys/fs/cgroup/cpu,cpuacct/cpu.cfs_period_us", O_RDONLY) = 4
+35015 1648618477.540241 read(4, "1"..., 4096) = 7
+35015 1648618477.540275 close(4)        = 0
+35015 1648618477.540303 openat(AT_FDCWD, "/sys/fs/cgroup/cpu,cpuacct/cpu.shares", O_RDONLY) = 4
+35015 1648618477.540357 read(4, "1"..., 4096) = 5
+35015 1648618477.540400 close(4)        = 0
+35015 1648618477.541033 openat(AT_FDCWD, "/proc/self/coredump_filter", O_RDWR) = 4
+35015 1648618477.541112 read(4, "0"..., 1024) = 9
+35015 1648618477.541172 write(4, "0"..., 4) = 4
+35015 1648618477.541205 close(4)        = 0
+35015 1648618477.541236 openat(AT_FDCWD, "/proc/self/coredump_filter", O_RDWR) = 4
+35015 1648618477.541302 read(4, "0"..., 1024) = 9
+35015 1648618477.541355 write(4, "0"..., 4) = 4
+35015 1648618477.541387 close(4)        = 0
+35015 1648618477.541658 close(4)        = 0
+35015 1648618477.541736 close(4)        = 0
+35015 1648618477.541810 openat(AT_FDCWD, "/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 4
+35015 1648618477.541878 read(4, "#"..., 4096) = 542
+35015 1648618477.541922 read(4, "", 4096) = 0
+35015 1648618477.541953 close(4)        = 0
+35015 1648618477.541993 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 4
+35015 1648618477.542071 close(4)        = 0
+35015 1648618477.542108 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 4
+35015 1648618477.542189 read(4, "\177"..., 832) = 832
+35015 1648618477.542373 close(4)        = 0
+35015 1648618477.542496 openat(AT_FDCWD, "/etc/passwd", O_RDONLY|O_CLOEXEC) = 4
+35015 1648618477.542577 read(4, "r"..., 4096) = 2732
+35015 1648618477.542613 close(4)        = 0
+35015 1648618477.542648 openat(AT_FDCWD, "/tmp/hsperfdata_root", O_RDONLY|O_NOFOLLOW) = 4
+35015 1648618477.542722 openat(AT_FDCWD, "/tmp/hsperfdata_root", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 5
+35015 1648618477.542813 close(4)        = 0
+35015 1648618477.542842 openat(AT_FDCWD, ".", O_RDONLY) = 4
+35015 1648618477.543037 close(4)        = 0
+35015 1648618477.543067 close(5)        = 0
+35015 1648618477.543151 openat(AT_FDCWD, "/tmp/hsperfdata_root", O_RDONLY|O_NOFOLLOW) = 4
+35015 1648618477.543220 openat(AT_FDCWD, "/tmp/hsperfdata_root", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 5
+35015 1648618477.543304 close(4)        = 0
+35015 1648618477.543332 openat(AT_FDCWD, ".", O_RDONLY) = 4
+35015 1648618477.543404 openat(AT_FDCWD, "35014", O_RDWR|O_CREAT|O_NOFOLLOW|O_CLOEXEC, 0600) = 6
+35015 1648618477.543520 close(4)        = 0
+35015 1648618477.543550 close(5)        = 0
+35015 1648618477.543661 write(6, "\0", 1) = 1
+35015 1648618477.543721 write(6, "\0", 1) = 1
+35015 1648618477.543776 write(6, "\0", 1) = 1
+35015 1648618477.543828 write(6, "\0", 1) = 1
+35015 1648618477.543902 write(6, "\0", 1) = 1
+35015 1648618477.543956 write(6, "\0", 1) = 1
+35015 1648618477.544008 write(6, "\0", 1) = 1
+35015 1648618477.544060 write(6, "\0", 1) = 1
+35015 1648618477.544118 close(6)        = 0
+35015 1648618477.544526 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/libzip.so", O_RDONLY) = 4
+35015 1648618477.544616 read(4, "\177"..., 4096) = 4096
+35015 1648618477.544670 read(4, "\177"..., 4096) = 4096
+35015 1648618477.544703 close(4)        = 0
+35015 1648618477.544750 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/libzip.so", O_RDONLY|O_CLOEXEC) = 4
+35015 1648618477.544811 read(4, "\177"..., 832) = 832
+35015 1648618477.544970 close(4)        = 0
+35015 1648618477.545306 openat(AT_FDCWD, "/usr/share/java/java-atk-wrapper.jar", O_RDONLY) = 4
+35015 1648618477.545388 close(4)        = 0
+35015 1648618477.545422 openat(AT_FDCWD, "/usr/share/java/java-atk-wrapper.jar", O_RDONLY) = 4
+35015 1648618477.545458 read(4, "P"..., 4) = 4
+35015 1648618477.545525 read(4, "M"..., 128) = 128
+35015 1648618477.545984 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_MAPERR, si_addr=NULL} ---
+35015 1648618477.546039 openat(AT_FDCWD, "/proc/cpuinfo", O_RDONLY|O_CLOEXEC) = 5
+35015 1648618477.565965 read(5, "p"..., 1024) = 1024
+35015 1648618477.566046 close(5)        = 0
+35015 1648618477.566630 clone(child_stack=0x7f5cd483bfb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[35016], tls=0x7f5cd483c700, child_tidptr=0x7f5cd483c9d0) = 35016
+35015 1648618477.567949 clone(child_stack=0x7f5cd4335fb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[35017], tls=0x7f5cd4336700, child_tidptr=0x7f5cd43369d0) = 35017
+35015 1648618477.568369 clone(child_stack=0x7f5cd4233fb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[35018], tls=0x7f5cd4234700, child_tidptr=0x7f5cd42349d0) = 35018
+35015 1648618477.581497 clone(child_stack=0x7f5cc4de3fb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[35019], tls=0x7f5cc4de4700, child_tidptr=0x7f5cc4de49d0) = 35019
+35015 1648618477.581899 clone(child_stack=0x7f5cc4ce1fb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[35020], tls=0x7f5cc4ce2700, child_tidptr=0x7f5cc4ce29d0) = 35020
+35015 1648618477.582431 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/server/classes.jsa", O_RDONLY|O_CLOEXEC) = 5
+35015 1648618477.582516 read(5, "\242"..., 928) = 928
+35015 1648618477.582553 read(5, "/"..., 92) = 92
+35015 1648618477.584023 close(5)        = 0
+35015 1648618477.589020 clone(child_stack=0x7f5cc4303fb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[35021], tls=0x7f5cc4304700, child_tidptr=0x7f5cc43049d0) = 35021
+35015 1648618477.590176 openat(AT_FDCWD, "/sys/fs/cgroup/cpu,cpuacct/cpu.cfs_quota_us", O_RDONLY) = 5
+35015 1648618477.590270 read(5, "-"..., 4096) = 3
+35015 1648618477.590307 close(5)        = 0
+35015 1648618477.590339 openat(AT_FDCWD, "/sys/fs/cgroup/cpu,cpuacct/cpu.cfs_period_us", O_RDONLY) = 5
+35015 1648618477.590389 read(5, "1"..., 4096) = 7
+35015 1648618477.590420 close(5)        = 0
+35015 1648618477.590448 openat(AT_FDCWD, "/sys/fs/cgroup/cpu,cpuacct/cpu.shares", O_RDONLY) = 5
+35015 1648618477.590497 read(5, "1"..., 4096) = 5
+35015 1648618477.590528 close(5)        = 0
+35015 1648618477.591031 clone(child_stack=0x7f5cc4201fb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[35022], tls=0x7f5cc4202700, child_tidptr=0x7f5cc42029d0) = 35022
+35015 1648618477.591465 clone(child_stack=0x7f5cc4100fb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[35023], tls=0x7f5cc4101700, child_tidptr=0x7f5cc41019d0) = 35023
+35023 1648618477.591537 openat(AT_FDCWD, "/sys/devices/system/cpu/online", O_RDONLY|O_CLOEXEC) = 5
+35023 1648618477.591574 read(5, "0"..., 8192) = 4
+35023 1648618477.591602 close(5)        = 0
+35015 1648618477.591932 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 5
+35015 1648618477.592026 close(5)        = 0
+35015 1648618477.592093 openat(AT_FDCWD, "/etc/passwd", O_RDONLY|O_CLOEXEC) = 5
+35015 1648618477.592171 read(5, "r"..., 4096) = 2732
+35015 1648618477.592207 close(5)        = 0
+35015 1648618477.594783 clone(child_stack=0x7f5ca7a8efb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[35024], tls=0x7f5ca7a8f700, child_tidptr=0x7f5ca7a8f9d0) = 35024
+35015 1648618477.595263 clone(child_stack=0x7f5ca798dfb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[35025], tls=0x7f5ca798e700, child_tidptr=0x7f5ca798e9d0) = 35025
+35015 1648618477.595642 clone(child_stack=0x7f5ca788cfb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[35026], tls=0x7f5ca788d700, child_tidptr=0x7f5ca788d9d0) = 35026
+35015 1648618477.595968 clone(child_stack=0x7f5ca778bfb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[35027], tls=0x7f5ca778c700, child_tidptr=0x7f5ca778c9d0) = 35027
+35015 1648618477.596359 clone(child_stack=0x7f5ca768afb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[35028], tls=0x7f5ca768b700, child_tidptr=0x7f5ca768b9d0) = 35028
+35027 1648618477.597821 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.limit_in_bytes", O_RDONLY) = 5
+35027 1648618477.597926 read(5, "9"..., 4096) = 20
+35027 1648618477.597975 close(5)        = 0
+35027 1648618477.598012 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.stat", O_RDONLY) = 5
+35027 1648618477.598079 read(5, "c"..., 4096) = 775
+35027 1648618477.598136 close(5)        = 0
+35015 1648618477.614897 clone(child_stack=0x7f5ca7589fb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[35029], tls=0x7f5ca758a700, child_tidptr=0x7f5ca758a9d0) = 35029
+35015 1648618477.616320 clone(child_stack=0x7f5ca7487fb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[35030], tls=0x7f5ca7488700, child_tidptr=0x7f5ca74889d0) = 35030
+35015 1648618477.617829 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/libnio.so", O_RDONLY) = 5
+35015 1648618477.617899 read(5, "\177"..., 4096) = 4096
+35015 1648618477.617942 read(5, "\177"..., 4096) = 4096
+35015 1648618477.617966 close(5)        = 0
+35015 1648618477.617994 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/libnio.so", O_RDONLY|O_CLOEXEC) = 5
+35015 1648618477.618019 read(5, "\177"..., 832) = 832
+35015 1648618477.618135 close(5)        = 0
+35015 1648618477.618164 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/tls/haswell/x86_64/libnet.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35015 1648618477.618211 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/tls/haswell/libnet.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35015 1648618477.618250 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/tls/x86_64/libnet.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35015 1648618477.618287 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/tls/libnet.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35015 1648618477.618325 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/haswell/x86_64/libnet.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35015 1648618477.618363 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/haswell/libnet.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35015 1648618477.618401 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/x86_64/libnet.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35015 1648618477.618438 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/libnet.so", O_RDONLY|O_CLOEXEC) = 5
+35015 1648618477.618462 read(5, "\177"..., 832) = 832
+35015 1648618477.618568 close(5)        = 0
+35015 1648618477.621422 openat(AT_FDCWD, "hw2.jar", O_RDONLY) = 5
+35015 1648618477.621730 read(5, "R"..., 128) = 128
+35015 1648618477.621841 read(5, "\0"..., 20) = 20
+35015 1648618477.621885 read(5, "P"..., 510) = 510
+35015 1648618477.621963 read(5, "P"..., 4) = 4
+35015 1648618477.622933 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/libzip.so", O_RDONLY) = 6
+35015 1648618477.623016 read(6, "\177"..., 4096) = 4096
+35015 1648618477.623061 read(6, "\177"..., 4096) = 4096
+35015 1648618477.623086 close(6)        = 0
+35027 1648618477.623302 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.limit_in_bytes", O_RDONLY) = 6
+35027 1648618477.623388 read(6, "9"..., 4096) = 20
+35027 1648618477.623424 close(6)        = 0
+35015 1648618477.623443 read(5,  <unfinished ...>
+35027 1648618477.623450 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.stat", O_RDONLY <unfinished ...>
+35015 1648618477.623459 <... read resumed>"P"..., 30) = 30
+35027 1648618477.623467 <... openat resumed>) = 6
+35027 1648618477.623492 read(6,  <unfinished ...>
+35015 1648618477.623499 read(5, "\363"..., 87) = 87
+35027 1648618477.623519 <... read resumed>"c"..., 4096) = 775
+35027 1648618477.623537 close(6)        = 0
+35015 1648618477.624612 close(5)        = 0
+35015 1648618477.625808 openat(AT_FDCWD, "/home/vdt/Documents/COP5611_Project/hw2.jar", O_RDONLY) = 5
+35015 1648618477.625933 read(5, "R"..., 128) = 128
+35015 1648618477.625983 read(5, "\0"..., 20) = 20
+35015 1648618477.626025 read(5, "P"..., 510) = 510
+35015 1648618477.626090 read(5, "P"..., 4) = 4
+35015 1648618477.626226 read(5, "P"..., 30) = 30
+35015 1648618477.626267 read(5, "\363"..., 87) = 87
+35015 1648618477.626558 read(5, "P"..., 30) = 30
+35015 1648618477.626609 read(5, "\215"..., 1386) = 1386
+35015 1648618477.627632 read(5, "P"..., 30) = 30
+35015 1648618477.627698 read(5, "}"..., 760) = 760
+35027 1648618477.643621 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.limit_in_bytes", O_RDONLY) = 6
+35027 1648618477.643755 read(6, "9"..., 4096) = 20
+35027 1648618477.643792 close(6)        = 0
+35027 1648618477.643821 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.stat", O_RDONLY) = 6
+35027 1648618477.643872 read(6, "c"..., 4096) = 775
+35027 1648618477.643920 close(6)        = 0
+35015 1648618477.654869 write(1, "A"..., 46) = 46
+35015 1648618477.655010 write(1, "\n", 1) = 1
+35015 1648618477.655464 write(1, "d"..., 27) = 27
+35015 1648618477.655529 write(1, "\n", 1) = 1
+35015 1648618477.655893 write(1, "s"..., 30) = 30
+35015 1648618477.655963 write(1, "\n", 1) = 1
+35015 1648618477.656387 write(1, "s"..., 18) = 18
+35015 1648618477.656449 write(1, "\n", 1) = 1
+35015 1648618477.656750 write(1, "s"..., 46) = 46
+35015 1648618477.656814 write(1, "\n", 1) = 1
+35015 1648618477.657104 write(1, "s"..., 33) = 33
+35015 1648618477.657163 write(1, "\n", 1) = 1
+35015 1648618477.657523 write(1, "s"..., 45) = 45
+35015 1648618477.657581 write(1, "\n", 1) = 1
+35015 1648618477.663784 write(1, "s"..., 27) = 27
+35015 1648618477.663884 write(1, "\n", 1) = 1
+35027 1648618477.664127 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.limit_in_bytes", O_RDONLY) = 6
+35027 1648618477.664223 read(6, "9"..., 4096) = 20
+35027 1648618477.664260 close(6 <unfinished ...>
+35015 1648618477.664267 write(1, "s"..., 28 <unfinished ...>
+35027 1648618477.664278 <... close resumed>) = 0
+35015 1648618477.664286 <... write resumed>) = 28
+35027 1648618477.664295 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.stat", O_RDONLY) = 6
+35015 1648618477.664325 write(1, "\n", 1) = 1
+35027 1648618477.664354 read(6, "c"..., 4096) = 775
+35015 1648618477.664390 write(1, "\n"..., 18 <unfinished ...>
+35027 1648618477.664401 close(6 <unfinished ...>
+35015 1648618477.664408 <... write resumed>) = 18
+35027 1648618477.664416 <... close resumed>) = 0
+35015 1648618477.664441 write(1, "\n", 1) = 1
+35015 1648618477.664640 read(5, "P"..., 30) = 30
+35015 1648618477.664694 read(5, "\255"..., 1143) = 1143
+35026 1648618477.685681 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.limit_in_bytes", O_RDONLY) = 6
+35026 1648618477.685847 read(6, "9"..., 4096) = 20
+35026 1648618477.685896 close(6)        = 0
+35027 1648618477.685927 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.limit_in_bytes", O_RDONLY <unfinished ...>
+35026 1648618477.685938 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.stat", O_RDONLY <unfinished ...>
+35027 1648618477.685960 <... openat resumed>) = 6
+35026 1648618477.685969 <... openat resumed>) = 7
+35026 1648618477.685996 read(7,  <unfinished ...>
+35027 1648618477.686017 read(6,  <unfinished ...>
+35026 1648618477.686030 <... read resumed>"c"..., 4096) = 775
+35027 1648618477.686040 <... read resumed>"9"..., 4096) = 20
+35026 1648618477.686049 close(7 <unfinished ...>
+35027 1648618477.686057 close(6 <unfinished ...>
+35026 1648618477.686064 <... close resumed>) = 0
+35027 1648618477.686072 <... close resumed>) = 0
+35027 1648618477.686083 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.stat", O_RDONLY) = 6
+35027 1648618477.686133 read(6, "c"..., 4096) = 775
+35027 1648618477.686176 close(6)        = 0
+35015 1648618477.692641 write(1, "4"..., 20) = 20
+35015 1648618477.692736 write(1, "\n", 1) = 1
+35015 1648618477.693172 write(1, "7"..., 23) = 23
+35015 1648618477.693248 write(1, "\n", 1) = 1
+35015 1648618477.693669 write(1, "-"..., 24) = 24
+35015 1648618477.693739 write(1, "\n", 1) = 1
+35015 1648618477.694101 write(1, "f"..., 8) = 8
+35015 1648618477.694178 write(1, "\n", 1) = 1
+35015 1648618477.694479 write(1, "f"..., 11) = 11
+35015 1648618477.694544 write(1, "\n", 1) = 1
+35015 1648618477.694801 write(1, "f"..., 10) = 10
+35015 1648618477.694872 write(1, "\n", 1) = 1
+35027 1648618477.706868 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.limit_in_bytes", O_RDONLY) = 6
+35027 1648618477.707009 read(6, "9"..., 4096) = 20
+35027 1648618477.707055 close(6)        = 0
+35027 1648618477.707090 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.stat", O_RDONLY) = 6
+35027 1648618477.707152 read(6, "c"..., 4096) = 775
+35027 1648618477.707206 close(6)        = 0
+35015 1648618477.725313 write(1, "4"..., 20) = 20
+35015 1648618477.725482 write(1, "\n", 1) = 1
+35027 1648618477.725637 clone(child_stack=0x7f5ca7386fb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[35031], tls=0x7f5ca7387700, child_tidptr=0x7f5ca73879d0) = 35031
+35015 1648618477.726243 write(1, "4"..., 19) = 19
+35015 1648618477.726344 write(1, "\n", 1) = 1
+35015 1648618477.727107 write(1, "4"..., 18) = 18
+35015 1648618477.727218 write(1, "\n", 1) = 1
+35026 1648618477.727803 openat(AT_FDCWD, "/proc/sys/vm/overcommit_memory", O_RDONLY|O_CLOEXEC) = 6
+35026 1648618477.727866 read(6, "0", 1) = 1
+35026 1648618477.727900 close(6)        = 0
+35015 1648618477.728024 write(1, "4"..., 19 <unfinished ...>
+35026 1648618477.728041 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.limit_in_bytes", O_RDONLY <unfinished ...>
+35015 1648618477.728058 <... write resumed>) = 19
+35026 1648618477.728077 <... openat resumed>) = 6
+35026 1648618477.728126 read(6,  <unfinished ...>
+35015 1648618477.728138 write(1, "\n", 1 <unfinished ...>
+35026 1648618477.728150 <... read resumed>"9"..., 4096) = 20
+35015 1648618477.728167 <... write resumed>) = 1
+35026 1648618477.728176 close(6)        = 0
+35026 1648618477.728206 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.stat", O_RDONLY <unfinished ...>
+35015 1648618477.728227 write(1, "\n", 1 <unfinished ...>
+35026 1648618477.728244 <... openat resumed>) = 6
+35015 1648618477.728253 <... write resumed>) = 1
+35027 1648618477.728305 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.limit_in_bytes", O_RDONLY) = 7
+35027 1648618477.728363 read(7, "9"..., 4096) = 20
+35027 1648618477.728396 close(7)        = 0
+35027 1648618477.728427 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.stat", O_RDONLY) = 7
+35027 1648618477.728482 read(7, "c"..., 4096) = 775
+35027 1648618477.728530 close(7)        = 0
+35026 1648618477.728762 read(6, "c"..., 4096) = 775
+35026 1648618477.728812 close(6)        = 0
+35015 1648618477.728981 write(1, "7"..., 22) = 22
+35015 1648618477.729117 write(1, "\n", 1) = 1
+35015 1648618477.729835 write(1, "7"..., 23) = 23
+35015 1648618477.729965 write(1, "\n", 1) = 1
+35015 1648618477.730702 write(1, "7"..., 24) = 24
+35015 1648618477.730880 write(1, "\n", 1) = 1
+35015 1648618477.731857 write(1, "7"..., 23) = 23
+35015 1648618477.732016 write(1, "\n", 1) = 1
+35015 1648618477.732104 write(1, "\n", 1) = 1
+35015 1648618477.732744 write(1, "7"..., 18) = 18
+35015 1648618477.732864 write(1, "\n", 1) = 1
+35029 1648618477.733469 +++ exited with 0 +++
+35019 1648618477.733576 +++ exited with 0 +++
+35020 1648618477.733700 +++ exited with 0 +++
+35017 1648618477.733787 +++ exited with 0 +++
+35024 1648618477.734052 +++ exited with 0 +++
+35021 1648618477.744363 +++ exited with 0 +++
+35015 1648618477.745588 +++ exited with 0 +++
+35014 1648618477.745677 close(3)        = 0
+35030 1648618477.745954 +++ exited with 0 +++
+35028 1648618477.745963 +++ exited with 0 +++
+35027 1648618477.745966 +++ exited with 0 +++
+35025 1648618477.745968 +++ exited with 0 +++
+35023 1648618477.745971 +++ exited with 0 +++
+35022 1648618477.745973 +++ exited with 0 +++
+35018 1648618477.745975 +++ exited with 0 +++
+35016 1648618477.745977 +++ exited with 0 +++
+35026 1648618477.746028 +++ exited with 0 +++
+35031 1648618477.753232 +++ exited with 0 +++
+35014 1648618477.753260 +++ exited with 0 +++
+35013 1648618477.753296 write(1, "j"..., 18) = 18
+35032 1648618477.753453 execve("/usr/local/sbin/java", ["j"..., "-"..., "h"...], ["X"..., "S"..., "_"..., "S"..., "L"..., "P"..., "L"..., "D"..., "P"..., "H"..., "L"..., "S"..., "L"..., "S"..., "C"..., "S"..., "S"..., "U"..., "O"..., "M"..., "M"..., "M"..., "M"..., "M"..., "L"..., "T"..., "M"...]) = -1 ENOENT (No such file or directory)
+35032 1648618477.753551 execve("/usr/local/bin/java", ["j"..., "-"..., "h"...], ["X"..., "S"..., "_"..., "S"..., "L"..., "P"..., "L"..., "D"..., "P"..., "H"..., "L"..., "S"..., "L"..., "S"..., "C"..., "S"..., "S"..., "U"..., "O"..., "M"..., "M"..., "M"..., "M"..., "M"..., "L"..., "T"..., "M"...]) = -1 ENOENT (No such file or directory)
+35032 1648618477.753618 execve("/usr/sbin/java", ["j"..., "-"..., "h"...], ["X"..., "S"..., "_"..., "S"..., "L"..., "P"..., "L"..., "D"..., "P"..., "H"..., "L"..., "S"..., "L"..., "S"..., "C"..., "S"..., "S"..., "U"..., "O"..., "M"..., "M"..., "M"..., "M"..., "M"..., "L"..., "T"..., "M"...]) = -1 ENOENT (No such file or directory)
+35032 1648618477.753681 execve("/usr/bin/java", ["j"..., "-"..., "h"...], ["X"..., "S"..., "_"..., "S"..., "L"..., "P"..., "L"..., "D"..., "P"..., "H"..., "L"..., "S"..., "L"..., "S"..., "C"..., "S"..., "S"..., "U"..., "O"..., "M"..., "M"..., "M"..., "M"..., "M"..., "L"..., "T"..., "M"...]) = 0
+35032 1648618477.754022 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/tls/haswell/x86_64/libjli.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35032 1648618477.754083 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/tls/haswell/libjli.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35032 1648618477.754135 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/tls/x86_64/libjli.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35032 1648618477.754185 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/tls/libjli.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35032 1648618477.754263 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/haswell/x86_64/libjli.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35032 1648618477.754317 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/haswell/libjli.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35032 1648618477.754366 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/x86_64/libjli.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35032 1648618477.754416 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/libjli.so", O_RDONLY|O_CLOEXEC) = 3
+35032 1648618477.754448 read(3, "\177"..., 832) = 832
+35032 1648618477.754616 close(3)        = 0
+35032 1648618477.754646 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35032 1648618477.754679 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35032 1648618477.754729 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35032 1648618477.754782 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35032 1648618477.754832 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35032 1648618477.754881 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35032 1648618477.754936 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35032 1648618477.754988 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35032 1648618477.755044 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35032 1648618477.755096 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+35032 1648618477.755166 close(3)        = 0
+35032 1648618477.755200 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+35032 1648618477.755234 read(3, "\177"..., 832) = 832
+35032 1648618477.755648 close(3)        = 0
+35032 1648618477.755690 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35032 1648618477.755728 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/../tls/haswell/x86_64/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35032 1648618477.755775 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/../tls/haswell/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35032 1648618477.755821 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/../tls/x86_64/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35032 1648618477.755864 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/../tls/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35032 1648618477.755908 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/../haswell/x86_64/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35032 1648618477.755952 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/../haswell/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35032 1648618477.755995 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/../x86_64/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35032 1648618477.756040 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/../libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35032 1648618477.756086 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+35032 1648618477.756115 read(3, "\177"..., 832) = 832
+35032 1648618477.756263 close(3)        = 0
+35032 1648618477.756290 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35032 1648618477.756319 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/../libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35032 1648618477.756346 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+35032 1648618477.756375 read(3, "\177"..., 832) = 832
+35032 1648618477.756531 close(3)        = 0
+35032 1648618477.756557 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35032 1648618477.756587 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/bin/../lib/jli/../libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35032 1648618477.756617 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+35032 1648618477.756646 read(3, "\177"..., 832) = 832
+35032 1648618477.756856 close(3)        = 0
+35032 1648618477.757428 openat(AT_FDCWD, "hw3.jar", O_RDONLY) = 3
+35032 1648618477.757505 read(3, "P"..., 22) = 22
+35032 1648618477.757553 read(3, "P"..., 46) = 46
+35032 1648618477.757598 read(3, "P"..., 30) = 30
+35032 1648618477.757643 read(3, "P"..., 1024) = 443
+35032 1648618477.757689 read(3, "P"..., 30) = 30
+35032 1648618477.757792 read(3, "\r"..., 86) = 86
+35032 1648618477.757849 close(3)        = 0
+35032 1648618477.757930 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/jvm.cfg", O_RDONLY) = 3
+35032 1648618477.757978 read(3, "-"..., 4096) = 54
+35032 1648618477.758006 read(3, "", 4096) = 0
+35032 1648618477.758029 close(3)        = 0
+35032 1648618477.758100 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so", O_RDONLY|O_CLOEXEC) = 3
+35032 1648618477.758128 read(3, "\177"..., 832) = 832
+35032 1648618477.758286 close(3)        = 0
+35032 1648618477.758316 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+35032 1648618477.758377 close(3)        = 0
+35032 1648618477.758404 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+35032 1648618477.758431 read(3, "\177"..., 832) = 832
+35032 1648618477.758591 close(3)        = 0
+35032 1648618477.758622 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+35032 1648618477.758651 read(3, "\177"..., 832) = 832
+35032 1648618477.758775 close(3)        = 0
+35032 1648618477.758803 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+35032 1648618477.758834 read(3, "\177"..., 832) = 832
+35032 1648618477.758955 close(3)        = 0
+35032 1648618477.761381 clone(child_stack=0x7fc78e56cfb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[35033], tls=0x7fc78e56d700, child_tidptr=0x7fc78e56d9d0) = 35033
+35033 1648618477.761583 openat(AT_FDCWD, "/sys/devices/system/cpu", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+35033 1648618477.761689 close(3)        = 0
+35033 1648618477.761775 openat(AT_FDCWD, "/proc/stat", O_RDONLY|O_CLOEXEC) = 3
+35033 1648618477.761838 read(3, "c"..., 1024) = 1024
+35033 1648618477.761885 close(3)        = 0
+35033 1648618477.761917 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+35033 1648618477.761987 close(3)        = 0
+35033 1648618477.762020 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/librt.so.1", O_RDONLY|O_CLOEXEC) = 3
+35033 1648618477.762054 read(3, "\177"..., 832) = 832
+35033 1648618477.762200 close(3)        = 0
+35033 1648618477.762476 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/libverify.so", O_RDONLY) = 3
+35033 1648618477.762531 read(3, "\177"..., 4096) = 4096
+35033 1648618477.762590 read(3, "\177"..., 4096) = 4096
+35033 1648618477.762621 close(3)        = 0
+35033 1648618477.762650 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/libverify.so", O_RDONLY|O_CLOEXEC) = 3
+35033 1648618477.762683 read(3, "\177"..., 832) = 832
+35033 1648618477.762835 close(3)        = 0
+35033 1648618477.762944 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/libjava.so", O_RDONLY) = 3
+35033 1648618477.763001 read(3, "\177"..., 4096) = 4096
+35033 1648618477.763048 read(3, "\177"..., 4096) = 4096
+35033 1648618477.763078 close(3)        = 0
+35033 1648618477.763108 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/libjava.so", O_RDONLY|O_CLOEXEC) = 3
+35033 1648618477.763142 read(3, "\177"..., 832) = 832
+35033 1648618477.763295 close(3)        = 0
+35033 1648618477.763455 openat(AT_FDCWD, "/etc/localtime", O_RDONLY|O_CLOEXEC) = 3
+35033 1648618477.763528 read(3, "T"..., 4096) = 3536
+35033 1648618477.763576 read(3, "T"..., 4096) = 2252
+35033 1648618477.763608 close(3)        = 0
+35033 1648618477.763732 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/libjimage.so", O_RDONLY) = 3
+35033 1648618477.763787 read(3, "\177"..., 4096) = 4096
+35033 1648618477.763834 read(3, "\177"..., 4096) = 4096
+35033 1648618477.763865 close(3)        = 0
+35033 1648618477.763894 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/libjimage.so", O_RDONLY|O_CLOEXEC) = 3
+35033 1648618477.763927 read(3, "\177"..., 832) = 832
+35033 1648618477.764078 close(3)        = 0
+35033 1648618477.764156 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/modules", O_RDONLY) = 3
+35033 1648618477.764312 openat(AT_FDCWD, "/proc/self/mountinfo", O_RDONLY) = 4
+35033 1648618477.764378 read(4, "2"..., 1024) = 1024
+35033 1648618477.764449 read(4, "e"..., 1024) = 1024
+35033 1648618477.764514 read(4, "a"..., 1024) = 1024
+35033 1648618477.764578 read(4, " "..., 1024) = 1024
+35033 1648618477.764633 read(4, "7"..., 1024) = 1024
+35033 1648618477.764686 read(4, "t"..., 1024) = 864
+35033 1648618477.764739 read(4, "", 1024) = 0
+35033 1648618477.764774 close(4)        = 0
+35033 1648618477.764804 openat(AT_FDCWD, "/proc/self/cgroup", O_RDONLY) = 4
+35033 1648618477.764860 read(4, "1"..., 1024) = 547
+35033 1648618477.764914 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.use_hierarchy", O_RDONLY) = 5
+35033 1648618477.764975 read(5, "1"..., 4096) = 2
+35033 1648618477.765014 close(5)        = 0
+35033 1648618477.765048 read(4, "", 1024) = 0
+35033 1648618477.765075 close(4)        = 0
+35033 1648618477.765104 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.limit_in_bytes", O_RDONLY) = 4
+35033 1648618477.765159 read(4, "9"..., 4096) = 20
+35033 1648618477.765195 close(4)        = 0
+35033 1648618477.765224 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.stat", O_RDONLY) = 4
+35033 1648618477.765278 read(4, "c"..., 4096) = 775
+35033 1648618477.765326 close(4)        = 0
+35033 1648618477.765357 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/endorsed", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+35033 1648618477.765396 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/ext", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+35033 1648618477.765466 openat(AT_FDCWD, "/sys/fs/cgroup/cpu,cpuacct/cpu.cfs_quota_us", O_RDONLY) = 4
+35033 1648618477.765521 read(4, "-"..., 4096) = 3
+35033 1648618477.765554 close(4)        = 0
+35033 1648618477.765584 openat(AT_FDCWD, "/sys/fs/cgroup/cpu,cpuacct/cpu.cfs_period_us", O_RDONLY) = 4
+35033 1648618477.765635 read(4, "1"..., 4096) = 7
+35033 1648618477.765669 close(4)        = 0
+35033 1648618477.765699 openat(AT_FDCWD, "/sys/fs/cgroup/cpu,cpuacct/cpu.shares", O_RDONLY) = 4
+35033 1648618477.765762 read(4, "1"..., 4096) = 5
+35033 1648618477.765798 close(4)        = 0
+35033 1648618477.766244 openat(AT_FDCWD, "/proc/self/coredump_filter", O_RDWR) = 4
+35033 1648618477.766304 read(4, "0"..., 1024) = 9
+35033 1648618477.766353 write(4, "0"..., 4) = 4
+35033 1648618477.766383 close(4)        = 0
+35033 1648618477.766410 openat(AT_FDCWD, "/proc/self/coredump_filter", O_RDWR) = 4
+35033 1648618477.766463 read(4, "0"..., 1024) = 9
+35033 1648618477.766510 write(4, "0"..., 4) = 4
+35033 1648618477.766540 close(4)        = 0
+35033 1648618477.766767 close(4)        = 0
+35033 1648618477.766839 close(4)        = 0
+35033 1648618477.766874 openat(AT_FDCWD, "/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 4
+35033 1648618477.766935 read(4, "#"..., 4096) = 542
+35033 1648618477.766973 read(4, "", 4096) = 0
+35033 1648618477.767001 close(4)        = 0
+35033 1648618477.767032 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 4
+35033 1648618477.767101 close(4)        = 0
+35033 1648618477.767132 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 4
+35033 1648618477.767167 read(4, "\177"..., 832) = 832
+35033 1648618477.767329 close(4)        = 0
+35033 1648618477.767434 openat(AT_FDCWD, "/etc/passwd", O_RDONLY|O_CLOEXEC) = 4
+35033 1648618477.767508 read(4, "r"..., 4096) = 2732
+35033 1648618477.767546 close(4)        = 0
+35033 1648618477.767577 openat(AT_FDCWD, "/tmp/hsperfdata_root", O_RDONLY|O_NOFOLLOW) = 4
+35033 1648618477.767644 openat(AT_FDCWD, "/tmp/hsperfdata_root", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 5
+35033 1648618477.767729 close(4)        = 0
+35033 1648618477.767756 openat(AT_FDCWD, ".", O_RDONLY) = 4
+35033 1648618477.767933 close(4)        = 0
+35033 1648618477.767962 close(5)        = 0
+35033 1648618477.768040 openat(AT_FDCWD, "/tmp/hsperfdata_root", O_RDONLY|O_NOFOLLOW) = 4
+35033 1648618477.768105 openat(AT_FDCWD, "/tmp/hsperfdata_root", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 5
+35033 1648618477.768186 close(4)        = 0
+35033 1648618477.768212 openat(AT_FDCWD, ".", O_RDONLY) = 4
+35033 1648618477.768260 openat(AT_FDCWD, "35032", O_RDWR|O_CREAT|O_NOFOLLOW|O_CLOEXEC, 0600) = 6
+35033 1648618477.768365 close(4)        = 0
+35033 1648618477.768392 close(5)        = 0
+35033 1648618477.768504 write(6, "\0", 1) = 1
+35033 1648618477.768560 write(6, "\0", 1) = 1
+35033 1648618477.768611 write(6, "\0", 1) = 1
+35033 1648618477.768661 write(6, "\0", 1) = 1
+35033 1648618477.768710 write(6, "\0", 1) = 1
+35033 1648618477.768758 write(6, "\0", 1) = 1
+35033 1648618477.768808 write(6, "\0", 1) = 1
+35033 1648618477.768860 write(6, "\0", 1) = 1
+35033 1648618477.768914 close(6)        = 0
+35033 1648618477.769282 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/libzip.so", O_RDONLY) = 4
+35033 1648618477.769358 read(4, "\177"..., 4096) = 4096
+35033 1648618477.769407 read(4, "\177"..., 4096) = 4096
+35033 1648618477.769438 close(4)        = 0
+35033 1648618477.769468 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/libzip.so", O_RDONLY|O_CLOEXEC) = 4
+35033 1648618477.769502 read(4, "\177"..., 832) = 832
+35033 1648618477.769638 close(4)        = 0
+35033 1648618477.769962 openat(AT_FDCWD, "/usr/share/java/java-atk-wrapper.jar", O_RDONLY) = 4
+35033 1648618477.770034 close(4)        = 0
+35033 1648618477.770065 openat(AT_FDCWD, "/usr/share/java/java-atk-wrapper.jar", O_RDONLY) = 4
+35033 1648618477.770099 read(4, "P"..., 4) = 4
+35033 1648618477.770160 read(4, "M"..., 128) = 128
+35033 1648618477.770522 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_MAPERR, si_addr=NULL} ---
+35033 1648618477.770573 openat(AT_FDCWD, "/proc/cpuinfo", O_RDONLY|O_CLOEXEC) = 5
+35033 1648618477.789952 read(5, "p"..., 1024) = 1024
+35033 1648618477.790032 close(5)        = 0
+35033 1648618477.790586 clone(child_stack=0x7fc78e20ffb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[35034], tls=0x7fc78e210700, child_tidptr=0x7fc78e2109d0) = 35034
+35033 1648618477.791828 clone(child_stack=0x7fc78c5f0fb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[35035], tls=0x7fc78c5f1700, child_tidptr=0x7fc78c5f19d0) = 35035
+35033 1648618477.792206 clone(child_stack=0x7fc78c4eefb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[35036], tls=0x7fc78c4ef700, child_tidptr=0x7fc78c4ef9d0) = 35036
+35033 1648618477.804850 clone(child_stack=0x7fc77073afb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[35037], tls=0x7fc77073b700, child_tidptr=0x7fc77073b9d0) = 35037
+35033 1648618477.805225 clone(child_stack=0x7fc770638fb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[35038], tls=0x7fc770639700, child_tidptr=0x7fc7706399d0) = 35038
+35033 1648618477.805732 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/server/classes.jsa", O_RDONLY|O_CLOEXEC) = 5
+35033 1648618477.805810 read(5, "\242"..., 928) = 928
+35033 1648618477.805842 read(5, "/"..., 92) = 92
+35033 1648618477.807166 close(5)        = 0
+35033 1648618477.811850 clone(child_stack=0x7fc770536fb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[35039], tls=0x7fc770537700, child_tidptr=0x7fc7705379d0) = 35039
+35033 1648618477.813042 openat(AT_FDCWD, "/sys/fs/cgroup/cpu,cpuacct/cpu.cfs_quota_us", O_RDONLY) = 5
+35033 1648618477.813134 read(5, "-"..., 4096) = 3
+35033 1648618477.813169 close(5)        = 0
+35033 1648618477.813196 openat(AT_FDCWD, "/sys/fs/cgroup/cpu,cpuacct/cpu.cfs_period_us", O_RDONLY) = 5
+35033 1648618477.813249 read(5, "1"..., 4096) = 7
+35033 1648618477.813278 close(5)        = 0
+35033 1648618477.813302 openat(AT_FDCWD, "/sys/fs/cgroup/cpu,cpuacct/cpu.shares", O_RDONLY) = 5
+35033 1648618477.813347 read(5, "1"..., 4096) = 5
+35033 1648618477.813374 close(5)        = 0
+35033 1648618477.813872 clone(child_stack=0x7fc770434fb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[35040], tls=0x7fc770435700, child_tidptr=0x7fc7704359d0) = 35040
+35033 1648618477.814356 clone(child_stack=0x7fc770333fb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[35041], tls=0x7fc770334700, child_tidptr=0x7fc7703349d0) = 35041
+35041 1648618477.814454 openat(AT_FDCWD, "/sys/devices/system/cpu/online", O_RDONLY|O_CLOEXEC) = 5
+35041 1648618477.814502 read(5, "0"..., 8192) = 4
+35041 1648618477.814558 close(5)        = 0
+35033 1648618477.814922 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 5
+35033 1648618477.815029 close(5)        = 0
+35033 1648618477.815109 openat(AT_FDCWD, "/etc/passwd", O_RDONLY|O_CLOEXEC) = 5
+35033 1648618477.815211 read(5, "r"..., 4096) = 2732
+35033 1648618477.815242 close(5)        = 0
+35033 1648618477.817957 clone(child_stack=0x7fc770232fb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[35042], tls=0x7fc770233700, child_tidptr=0x7fc7702339d0) = 35042
+35033 1648618477.818446 clone(child_stack=0x7fc770131fb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[35043], tls=0x7fc770132700, child_tidptr=0x7fc7701329d0) = 35043
+35033 1648618477.818855 clone(child_stack=0x7fc76420efb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[35044], tls=0x7fc76420f700, child_tidptr=0x7fc76420f9d0) = 35044
+35033 1648618477.819257 clone(child_stack=0x7fc76410dfb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[35045], tls=0x7fc76410e700, child_tidptr=0x7fc76410e9d0) = 35045
+35033 1648618477.819698 clone(child_stack=0x7fc75d7fefb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[35046], tls=0x7fc75d7ff700, child_tidptr=0x7fc75d7ff9d0) = 35046
+35045 1648618477.821361 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.limit_in_bytes", O_RDONLY) = 5
+35045 1648618477.821507 read(5, "9"..., 4096) = 20
+35045 1648618477.821560 close(5)        = 0
+35045 1648618477.821604 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.stat", O_RDONLY) = 5
+35045 1648618477.821679 read(5, "c"..., 4096) = 775
+35045 1648618477.821742 close(5)        = 0
+35033 1648618477.840355 clone(child_stack=0x7fc75d6fdfb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[35047], tls=0x7fc75d6fe700, child_tidptr=0x7fc75d6fe9d0) = 35047
+35033 1648618477.841780 clone(child_stack=0x7fc75d5fbfb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[35048], tls=0x7fc75d5fc700, child_tidptr=0x7fc75d5fc9d0) = 35048
+35045 1648618477.843236 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.limit_in_bytes", O_RDONLY) = 5
+35045 1648618477.843356 read(5, "9"..., 4096) = 20
+35045 1648618477.843409 close(5)        = 0
+35045 1648618477.843478 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.stat", O_RDONLY) = 5
+35033 1648618477.843518 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/libnio.so", O_RDONLY) = 6
+35045 1648618477.843553 read(5, "c"..., 4096) = 775
+35033 1648618477.843591 read(6,  <unfinished ...>
+35045 1648618477.843599 close(5 <unfinished ...>
+35033 1648618477.843608 <... read resumed>"\177"..., 4096) = 4096
+35045 1648618477.843619 <... close resumed>) = 0
+35033 1648618477.843648 read(6, "\177"..., 4096) = 4096
+35033 1648618477.843680 close(6)        = 0
+35033 1648618477.843724 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/libnio.so", O_RDONLY|O_CLOEXEC) = 5
+35033 1648618477.843762 read(5, "\177"..., 832) = 832
+35033 1648618477.843920 close(5)        = 0
+35033 1648618477.843959 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/tls/haswell/x86_64/libnet.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35033 1648618477.844021 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/tls/haswell/libnet.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35033 1648618477.844075 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/tls/x86_64/libnet.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35033 1648618477.844127 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/tls/libnet.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35033 1648618477.844180 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/haswell/x86_64/libnet.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35033 1648618477.844231 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/haswell/libnet.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35033 1648618477.844284 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/x86_64/libnet.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+35033 1648618477.844351 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/libnet.so", O_RDONLY|O_CLOEXEC) = 5
+35033 1648618477.844385 read(5, "\177"..., 832) = 832
+35033 1648618477.844527 close(5)        = 0
+35033 1648618477.847565 openat(AT_FDCWD, "hw3.jar", O_RDONLY) = 5
+35033 1648618477.847762 read(5, "\0"..., 128) = 128
+35033 1648618477.847897 read(5, "\0"..., 20) = 20
+35033 1648618477.847953 read(5, "P"..., 443) = 443
+35033 1648618477.848047 read(5, "P"..., 4) = 4
+35033 1648618477.848709 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/libzip.so", O_RDONLY) = 6
+35033 1648618477.848822 read(6, "\177"..., 4096) = 4096
+35033 1648618477.848870 read(6, "\177"..., 4096) = 4096
+35033 1648618477.848898 close(6)        = 0
+35033 1648618477.849128 read(5, "P"..., 30) = 30
+35033 1648618477.849196 read(5, "\r"..., 86) = 86
+35033 1648618477.850347 close(5)        = 0
+35033 1648618477.851503 openat(AT_FDCWD, "/home/vdt/Documents/COP5611_Project/hw3.jar", O_RDONLY) = 5
+35033 1648618477.851613 read(5, "\0"..., 128) = 128
+35033 1648618477.851669 read(5, "\0"..., 20) = 20
+35033 1648618477.851718 read(5, "P"..., 443) = 443
+35033 1648618477.851791 read(5, "P"..., 4) = 4
+35033 1648618477.851951 read(5, "P"..., 30) = 30
+35033 1648618477.852003 read(5, "\r"..., 86) = 86
+35033 1648618477.852357 read(5, "P"..., 30) = 30
+35033 1648618477.852410 read(5, "\355"..., 3653) = 3653
+35045 1648618477.864576 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.limit_in_bytes", O_RDONLY) = 6
+35045 1648618477.864712 read(6, "9"..., 4096) = 20
+35045 1648618477.864761 close(6)        = 0
+35045 1648618477.864798 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.stat", O_RDONLY) = 6
+35045 1648618477.864865 read(6, "c"..., 4096) = 775
+35045 1648618477.864923 close(6)        = 0
+35033 1648618477.868284 openat(AT_FDCWD, "/usr/lib/jvm/java-11-openjdk-amd64/lib/libjimage.so", O_RDONLY) = 6
+35033 1648618477.868361 read(6, "\177"..., 4096) = 4096
+35033 1648618477.868407 read(6, "\177"..., 4096) = 4096
+35033 1648618477.868436 close(6)        = 0
+35033 1648618477.874737 read(5, "P"..., 30) = 30
+35033 1648618477.874814 read(5, "m"..., 342) = 342
+35033 1648618477.877917 write(1, "G"..., 23) = 23
+35033 1648618477.878051 write(1, " ", 1) = 1
+35033 1648618477.878124 write(1, " "..., 3) = 3
+35033 1648618477.878183 write(1, " ", 1) = 1
+35033 1648618477.878234 write(1, " "..., 3) = 3
+35033 1648618477.878285 write(1, " ", 1) = 1
+35033 1648618477.878344 write(1, "\t"..., 31) = 31
+35033 1648618477.878443 write(1, " ", 1) = 1
+35033 1648618477.878499 write(1, " "..., 3) = 3
+35033 1648618477.878554 write(1, " ", 1) = 1
+35033 1648618477.878610 write(1, " "..., 3) = 3
+35033 1648618477.878674 write(1, " ", 1) = 1
+35033 1648618477.878727 write(1, "\t"..., 31) = 31
+35033 1648618477.878783 write(1, " ", 1) = 1
+35033 1648618477.878834 write(1, " "..., 3) = 3
+35033 1648618477.878885 write(1, " ", 1) = 1
+35033 1648618477.878935 write(1, " "..., 3) = 3
+35033 1648618477.878985 write(1, " ", 1) = 1
+35033 1648618477.879034 write(1, "\t"..., 11) = 11
+35033 1648618477.879094 write(1, "P"..., 32) = 32
+35033 1648618477.881105 read(0, "1"..., 8192) = 2
+35045 1648618483.988911 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.limit_in_bytes", O_RDONLY) = 6
+35045 1648618483.989406 read(6, "9"..., 4096) = 20
+35045 1648618483.989575 close(6)        = 0
+35045 1648618483.989821 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.stat", O_RDONLY) = 6
+35033 1648618483.990549 write(1, "G"..., 23 <unfinished ...>
+35045 1648618483.990678 read(6, "c"..., 4096) = 775
+35033 1648618483.990833 <... write resumed>) = 23
+35045 1648618483.990980 close(6 <unfinished ...>
+35033 1648618483.991008 write(1, "X", 1 <unfinished ...>
+35045 1648618483.991050 <... close resumed>) = 0
+35033 1648618483.991082 <... write resumed>) = 1
+35033 1648618483.991329 write(1, " "..., 3) = 3
+35033 1648618483.991554 write(1, " ", 1) = 1
+35033 1648618483.991696 write(1, " "..., 3) = 3
+35033 1648618483.991842 write(1, " ", 1) = 1
+35033 1648618483.991935 write(1, "\t"..., 31) = 31
+35033 1648618483.992028 write(1, " ", 1) = 1
+35033 1648618483.992097 write(1, " "..., 3) = 3
+35033 1648618483.992165 write(1, " ", 1) = 1
+35033 1648618483.992229 write(1, " "..., 3) = 3
+35033 1648618483.992294 write(1, " ", 1) = 1
+35033 1648618483.992361 write(1, "\t"..., 31) = 31
+35033 1648618483.992464 write(1, " ", 1) = 1
+35033 1648618483.992537 write(1, " "..., 3) = 3
+35033 1648618483.992603 write(1, " ", 1) = 1
+35033 1648618483.992671 write(1, " "..., 3) = 3
+35033 1648618483.992735 write(1, " ", 1) = 1
+35033 1648618483.992790 write(1, "\t"..., 11) = 11
+35033 1648618483.992857 write(1, "P"..., 32) = 32
+35033 1648618483.992940 read(0, "2"..., 8192) = 2
+35033 1648618489.041168 write(1, "G"..., 23) = 23
+35033 1648618489.041634 write(1, "X", 1 <unfinished ...>
+35045 1648618489.041695 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.limit_in_bytes", O_RDONLY <unfinished ...>
+35033 1648618489.041739 <... write resumed>) = 1
+35045 1648618489.041819 <... openat resumed>) = 6
+35033 1648618489.041891 write(1, " "..., 3 <unfinished ...>
+35045 1648618489.042039 read(6,  <unfinished ...>
+35033 1648618489.042063 <... write resumed>) = 3
+35045 1648618489.042091 <... read resumed>"9"..., 4096) = 20
+35045 1648618489.042156 close(6 <unfinished ...>
+35033 1648618489.042177 write(1, "O", 1 <unfinished ...>
+35045 1648618489.042212 <... close resumed>) = 0
+35033 1648618489.042235 <... write resumed>) = 1
+35045 1648618489.042262 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.stat", O_RDONLY) = 6
+35033 1648618489.042356 write(1, " "..., 3) = 3
+35045 1648618489.042449 read(6, "c"..., 4096) = 775
+35033 1648618489.042557 write(1, " ", 1 <unfinished ...>
+35045 1648618489.042590 close(6 <unfinished ...>
+35033 1648618489.042615 <... write resumed>) = 1
+35045 1648618489.042640 <... close resumed>) = 0
+35033 1648618489.042739 write(1, "\t"..., 31) = 31
+35033 1648618489.042931 write(1, " ", 1) = 1
+35033 1648618489.043148 write(1, " "..., 3) = 3
+35033 1648618489.043341 write(1, " ", 1) = 1
+35033 1648618489.043494 write(1, " "..., 3) = 3
+35033 1648618489.043665 write(1, " ", 1) = 1
+35033 1648618489.043827 write(1, "\t"..., 31) = 31
+35033 1648618489.043994 write(1, " ", 1) = 1
+35033 1648618489.044151 write(1, " "..., 3) = 3
+35033 1648618489.044403 write(1, " ", 1) = 1
+35033 1648618489.044582 write(1, " "..., 3) = 3
+35033 1648618489.044885 write(1, " ", 1) = 1
+35033 1648618489.045116 write(1, "\t"..., 11) = 11
+35033 1648618489.046034 write(1, "P"..., 32) = 32
+35033 1648618489.046525 read(0, "5"..., 8192) = 2
+35033 1648618491.902487 write(1, "G"..., 23) = 23
+35045 1648618491.902823 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.limit_in_bytes", O_RDONLY) = 6
+35033 1648618491.903013 write(1, "X", 1 <unfinished ...>
+35045 1648618491.903087 read(6,  <unfinished ...>
+35033 1648618491.903110 <... write resumed>) = 1
+35045 1648618491.903140 <... read resumed>"9"..., 4096) = 20
+35045 1648618491.903215 close(6)        = 0
+35033 1648618491.903301 write(1, " "..., 3 <unfinished ...>
+35045 1648618491.903335 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.stat", O_RDONLY <unfinished ...>
+35033 1648618491.903379 <... write resumed>) = 3
+35045 1648618491.903426 <... openat resumed>) = 6
+35033 1648618491.903527 write(1, "O", 1 <unfinished ...>
+35045 1648618491.903566 read(6,  <unfinished ...>
+35033 1648618491.903596 <... write resumed>) = 1
+35045 1648618491.903678 <... read resumed>"c"..., 4096) = 775
+35033 1648618491.903724 write(1, " "..., 3 <unfinished ...>
+35045 1648618491.903756 close(6 <unfinished ...>
+35033 1648618491.903785 <... write resumed>) = 3
+35045 1648618491.903810 <... close resumed>) = 0
+35033 1648618491.904024 write(1, " ", 1) = 1
+35033 1648618491.904366 write(1, "\t"..., 31) = 31
+35033 1648618491.904624 write(1, " ", 1) = 1
+35033 1648618491.904809 write(1, " "..., 3) = 3
+35033 1648618491.904991 write(1, "X", 1) = 1
+35033 1648618491.905152 write(1, " "..., 3) = 3
+35033 1648618491.905346 write(1, " ", 1) = 1
+35033 1648618491.905552 write(1, "\t"..., 31) = 31
+35033 1648618491.905724 write(1, " ", 1) = 1
+35033 1648618491.905992 write(1, " "..., 3) = 3
+35033 1648618491.906340 write(1, " ", 1) = 1
+35033 1648618491.906535 write(1, " "..., 3) = 3
+35033 1648618491.906745 write(1, " ", 1) = 1
+35033 1648618491.906945 write(1, "\t"..., 11) = 11
+35033 1648618491.907228 write(1, "P"..., 32) = 32
+35033 1648618491.907468 read(0, "9"..., 8192) = 2
+35033 1648618499.647038 write(1, "G"..., 23) = 23
+35033 1648618499.647313 write(1, "X", 1) = 1
+35033 1648618499.647505 write(1, " "..., 3) = 3
+35033 1648618499.647688 write(1, "O", 1 <unfinished ...>
+35045 1648618499.647764 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.limit_in_bytes", O_RDONLY <unfinished ...>
+35033 1648618499.647805 <... write resumed>) = 1
+35045 1648618499.647953 <... openat resumed>) = 6
+35033 1648618499.647993 write(1, " "..., 3) = 3
+35045 1648618499.648123 read(6, "9"..., 4096) = 20
+35033 1648618499.648217 write(1, " ", 1 <unfinished ...>
+35045 1648618499.648258 close(6 <unfinished ...>
+35033 1648618499.648288 <... write resumed>) = 1
+35045 1648618499.648314 <... close resumed>) = 0
+35045 1648618499.648363 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.stat", O_RDONLY <unfinished ...>
+35033 1648618499.648403 write(1, "\t"..., 31 <unfinished ...>
+35045 1648618499.648440 <... openat resumed>) = 6
+35033 1648618499.648474 <... write resumed>) = 31
+35045 1648618499.648587 read(6,  <unfinished ...>
+35033 1648618499.648613 write(1, " ", 1 <unfinished ...>
+35045 1648618499.648676 <... read resumed>"c"..., 4096) = 775
+35033 1648618499.648733 <... write resumed>) = 1
+35045 1648618499.648762 close(6)        = 0
+35033 1648618499.648861 write(1, " "..., 3) = 3
+35033 1648618499.649072 write(1, "X", 1) = 1
+35033 1648618499.649257 write(1, " "..., 3) = 3
+35033 1648618499.649417 write(1, " ", 1) = 1
+35033 1648618499.649600 write(1, "\t"..., 31) = 31
+35033 1648618499.649794 write(1, " ", 1) = 1
+35033 1648618499.649949 write(1, " "..., 3) = 3
+35033 1648618499.650134 write(1, " ", 1) = 1
+35033 1648618499.650341 write(1, " "..., 3) = 3
+35033 1648618499.650528 write(1, "O", 1) = 1
+35033 1648618499.650870 write(1, "\t"..., 11) = 11
+35033 1648618499.651215 write(1, "P"..., 32) = 32
+35033 1648618499.651593 read(0, "4"..., 8192) = 2
+35033 1648618503.002286 write(1, "G"..., 23) = 23
+35033 1648618503.002427 write(1, "X", 1) = 1
+35033 1648618503.002514 write(1, " "..., 3) = 3
+35033 1648618503.002629 write(1, "O", 1) = 1
+35033 1648618503.002708 write(1, " "..., 3) = 3
+35033 1648618503.002832 write(1, " ", 1) = 1
+35033 1648618503.002912 write(1, "\t"..., 31) = 31
+35033 1648618503.002987 write(1, "X", 1) = 1
+35033 1648618503.003053 write(1, " "..., 3) = 3
+35033 1648618503.003122 write(1, "X", 1 <unfinished ...>
+35045 1648618503.003138 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.limit_in_bytes", O_RDONLY <unfinished ...>
+35033 1648618503.003154 <... write resumed>) = 1
+35045 1648618503.003182 <... openat resumed>) = 6
+35033 1648618503.003194 write(1, " "..., 3) = 3
+35045 1648618503.003235 read(6, "9"..., 4096) = 20
+35033 1648618503.003268 write(1, " ", 1 <unfinished ...>
+35045 1648618503.003281 close(6 <unfinished ...>
+35033 1648618503.003291 <... write resumed>) = 1
+35045 1648618503.003301 <... close resumed>) = 0
+35045 1648618503.003320 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.stat", O_RDONLY <unfinished ...>
+35033 1648618503.003335 write(1, "\t"..., 31 <unfinished ...>
+35045 1648618503.003349 <... openat resumed>) = 6
+35033 1648618503.003358 <... write resumed>) = 31
+35045 1648618503.003390 read(6,  <unfinished ...>
+35033 1648618503.003401 write(1, " ", 1 <unfinished ...>
+35045 1648618503.003426 <... read resumed>"c"..., 4096) = 775
+35033 1648618503.003437 <... write resumed>) = 1
+35045 1648618503.003448 close(6)        = 0
+35033 1648618503.003475 write(1, " "..., 3) = 3
+35033 1648618503.003538 write(1, " ", 1) = 1
+35033 1648618503.003603 write(1, " "..., 3) = 3
+35033 1648618503.003672 write(1, "O", 1) = 1
+35033 1648618503.003789 write(1, "\t"..., 11) = 11
+35033 1648618503.003866 write(1, "P"..., 32) = 32
+35033 1648618503.003966 read(0, "7"..., 8192) = 2
+35033 1648618506.958097 write(1, "G"..., 23) = 23
+35033 1648618506.958545 write(1, "X", 1) = 1
+35033 1648618506.958985 write(1, " "..., 3) = 3
+35033 1648618506.959237 write(1, "O", 1) = 1
+35033 1648618506.959500 write(1, " "..., 3 <unfinished ...>
+35045 1648618506.959658 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.limit_in_bytes", O_RDONLY <unfinished ...>
+35033 1648618506.959698 <... write resumed>) = 3
+35045 1648618506.959751 <... openat resumed>) = 6
+35033 1648618506.959818 write(1, " ", 1 <unfinished ...>
+35045 1648618506.959945 read(6,  <unfinished ...>
+35033 1648618506.959967 <... write resumed>) = 1
+35045 1648618506.959991 <... read resumed>"9"..., 4096) = 20
+35045 1648618506.960057 close(6 <unfinished ...>
+35033 1648618506.960087 write(1, "\t"..., 31 <unfinished ...>
+35045 1648618506.960116 <... close resumed>) = 0
+35033 1648618506.960155 <... write resumed>) = 31
+35045 1648618506.960242 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.stat", O_RDONLY) = 6
+35045 1648618506.960402 read(6,  <unfinished ...>
+35033 1648618506.960443 write(1, "X", 1 <unfinished ...>
+35045 1648618506.960498 <... read resumed>"c"..., 4096) = 775
+35033 1648618506.960526 <... write resumed>) = 1
+35045 1648618506.960573 close(6)        = 0
+35033 1648618506.960647 write(1, " "..., 3) = 3
+35033 1648618506.960798 write(1, "X", 1) = 1
+35033 1648618506.961069 write(1, " "..., 3) = 3
+35033 1648618506.961299 write(1, " ", 1) = 1
+35033 1648618506.961536 write(1, "\t"..., 31) = 31
+35033 1648618506.961828 write(1, "O", 1) = 1
+35033 1648618506.962065 write(1, " "..., 3) = 3
+35033 1648618506.962249 write(1, " ", 1) = 1
+35033 1648618506.962443 write(1, " "..., 3) = 3
+35033 1648618506.962620 write(1, "O", 1) = 1
+35033 1648618506.962802 write(1, "\t"..., 11) = 11
+35033 1648618506.962997 write(1, "P"..., 32) = 32
+35033 1648618506.963176 read(0, "6"..., 8192) = 2
+35045 1648618510.842475 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.limit_in_bytes", O_RDONLY) = 6
+35045 1648618510.842791 read(6, "9"..., 4096) = 20
+35045 1648618510.842937 close(6)        = 0
+35045 1648618510.843049 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.stat", O_RDONLY) = 6
+35045 1648618510.843241 read(6, "c"..., 4096) = 775
+35045 1648618510.843423 close(6)        = 0
+35045 1648618510.863586 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.limit_in_bytes", O_RDONLY) = 6
+35045 1648618510.863700 read(6, "9"..., 4096) = 20
+35045 1648618510.863770 close(6)        = 0
+35045 1648618510.863804 openat(AT_FDCWD, "/sys/fs/cgroup/memory/user.slice/user-1000.slice/user@1000.service/memory.stat", O_RDONLY) = 6
+35045 1648618510.863865 read(6, "c"..., 4096) = 775
+35045 1648618510.863919 close(6)        = 0
+35033 1648618510.865407 write(1, "P"..., 22) = 22
+35033 1648618510.865515 write(1, "\n", 1) = 1
+35033 1648618510.865744 write(1, "\n"..., 24) = 24
+35033 1648618510.865826 write(1, "X", 1) = 1
+35033 1648618510.865896 write(1, " "..., 3) = 3
+35033 1648618510.865960 write(1, "O", 1) = 1
+35033 1648618510.866018 write(1, " "..., 3) = 3
+35033 1648618510.866078 write(1, " ", 1) = 1
+35033 1648618510.866139 write(1, "\t"..., 31) = 31
+35033 1648618510.866197 write(1, "X", 1) = 1
+35033 1648618510.866250 write(1, " "..., 3) = 3
+35033 1648618510.866302 write(1, "X", 1) = 1
+35033 1648618510.866355 write(1, " "..., 3) = 3
+35033 1648618510.866406 write(1, "X", 1) = 1
+35033 1648618510.866458 write(1, "\t"..., 31) = 31
+35033 1648618510.866510 write(1, "O", 1) = 1
+35033 1648618510.866560 write(1, " "..., 3) = 3
+35033 1648618510.866615 write(1, " ", 1) = 1
+35033 1648618510.866665 write(1, " "..., 3) = 3
+35033 1648618510.866716 write(1, "O", 1) = 1
+35033 1648618510.866769 write(1, "\t"..., 11) = 11
+35047 1648618510.867460 +++ exited with 0 +++
+35037 1648618510.867573 +++ exited with 0 +++
+35038 1648618510.867658 +++ exited with 0 +++
+35035 1648618510.867796 +++ exited with 0 +++
+35042 1648618510.867929 +++ exited with 0 +++
+35039 1648618510.869134 +++ exited with 0 +++
+35033 1648618510.870445 +++ exited with 0 +++
+35032 1648618510.870582 close(3)        = 0
+35046 1648618510.870803 +++ exited with 0 +++
+35044 1648618510.870815 +++ exited with 0 +++
+35043 1648618510.870820 +++ exited with 0 +++
+35040 1648618510.870824 +++ exited with 0 +++
+35036 1648618510.870828 +++ exited with 0 +++
+35034 1648618510.870831 +++ exited with 0 +++
+35048 1648618510.870838 +++ exited with 0 +++
+35045 1648618510.870841 +++ exited with 0 +++
+35041 1648618510.870844 +++ exited with 0 +++
+35032 1648618510.873154 +++ exited with 0 +++
+35013 1648618510.873335 close(1)        = 0
+35013 1648618510.873623 +++ exited with 0 +++
