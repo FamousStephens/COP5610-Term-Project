@@ -1,1 +1,1 @@
-These are the old strace logs with the -y and mmap flags
+These are the old strace logs without the -y and mmap flags
