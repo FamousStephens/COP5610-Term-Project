@@ -11,6 +11,7 @@ browser_1.txt | Firefox with Amazon
 browser_2.txt | Google Chrome with Etsy
 broswer_3.txt | Opera with Walmart
 makefile_1.txt | C/C++ project files
-makefile_2.txt | Java Project files
+makefile_2.txt | C Project files
+makefile_3.txt | Java Project files
 out.dot | X
 out2.dot | X
