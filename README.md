@@ -9,6 +9,7 @@ app_2.txt | nano
 app_3.txt | vim
 app_4.txt | Audacity
 app_5.txt | Libre Office
+app_6.txt | Deluge Torrent Client
 browser_1.txt | Firefox with Amazon
 browser_2.txt | Google Chrome with Etsy
 broswer_3.txt | Opera with Walmart
